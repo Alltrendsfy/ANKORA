@@ -1,0 +1,114 @@
+{
+  "entities": {
+    "OfficialPackage": {
+      "title": "OfficialPackage",
+      "description": "Official Civil Protection and Consular package for a region",
+      "type": "object",
+      "properties": {
+        "packageId": {
+          "type": "string",
+          "description": "Unique package identifier like IT-MO"
+        },
+        "version": {
+          "type": "string",
+          "description": "Version date of the dataset"
+        },
+        "country": {
+          "type": "string",
+          "description": "Target country"
+        },
+        "city": {
+          "type": "string",
+          "description": "Target city"
+        },
+        "emergencyNumber": {
+          "type": "string",
+          "description": "European emergency phone number (112)"
+        },
+        "updatedAt": {
+          "type": "string",
+          "description": "ISO timestamp of last verified update"
+        }
+      },
+      "required": ["packageId", "version", "country", "city", "emergencyNumber"]
+    },
+    "EmergencyReport": {
+      "title": "EmergencyReport",
+      "description": "Field report on status or accessibility of an emergency waiting area",
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "Report ID"
+        },
+        "areaId": {
+          "type": "string",
+          "description": "Referenced emergency area ID (e.g. a3)"
+        },
+        "areaName": {
+          "type": "string",
+          "description": "Name of the waiting area"
+        },
+        "status": {
+          "type": "string",
+          "enum": ["open_clear", "crowded", "first_aid_present", "blocked_access"],
+          "description": "Accessibility status of the waiting area"
+        },
+        "note": {
+          "type": "string",
+          "maxLength": 500,
+          "description": "Short observation note"
+        },
+        "createdAt": {
+          "type": "string",
+          "description": "ISO timestamp of the report"
+        },
+        "authorUid": {
+          "type": "string",
+          "description": "Authenticated user ID of the reporter"
+        }
+      },
+      "required": ["id", "areaId", "status", "createdAt", "authorUid"]
+    },
+    "UserPreferences": {
+      "title": "UserPreferences",
+      "description": "User preferences synced to the ecosystem",
+      "type": "object",
+      "properties": {
+        "language": {
+          "type": "string",
+          "description": "Preferred UI language code"
+        },
+        "residencyStatus": {
+          "type": "string",
+          "description": "traveling or living"
+        },
+        "updatedAt": {
+          "type": "string",
+          "description": "ISO timestamp of update"
+        }
+      },
+      "required": ["language", "updatedAt"]
+    }
+  },
+  "firestore": {
+    "/official_packages/{packageId}": {
+      "schema": {
+        "$ref": "#/entities/OfficialPackage"
+      },
+      "description": "Official regional packages published for emergency destinations"
+    },
+    "/emergency_reports/{reportId}": {
+      "schema": {
+        "$ref": "#/entities/EmergencyReport"
+      },
+      "description": "Citizen and Civil Protection status reports for emergency areas"
+    },
+    "/users/{userId}/preferences/{docId}": {
+      "schema": {
+        "$ref": "#/entities/UserPreferences"
+      },
+      "description": "Private user preferences"
+    }
+  }
+}

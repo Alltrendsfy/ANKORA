@@ -1,0 +1,41 @@
+@import "tailwindcss";
+@import "leaflet/dist/leaflet.css";
+
+@layer utilities {
+  .font-sora {
+    font-family: 'Sora', -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    font-weight: 600;
+  }
+}
+
+:root {
+  --ankora-base: #0F2B3D;
+  --ankora-emergency: #F26A21;
+  --ankora-emergency-text: #0F2B3D;
+  --ankora-orange-text: #B8470B;
+  --ankora-bg-light: #F3F5F7;
+  --ankora-text-sec: #4A5C6A;
+  --ankora-verified: #0E7C74;
+  --ankora-warning-text: #B45309;
+  --ankora-warning-bg: #FFF4E5;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --ankora-base: #0A1720;
+    --ankora-emergency: #FF8A47;
+    --ankora-emergency-text: #0A1720;
+    --ankora-text-sec: #94A3B8;
+  }
+}
+
+/* Ensure touch targets >= 48px */
+.touch-target {
+  min-height: 48px;
+  min-width: 48px;
+}
+
+/* RTL support adjustments */
+[dir="rtl"] .rtl-flip {
+  transform: scaleX(-1);
+}

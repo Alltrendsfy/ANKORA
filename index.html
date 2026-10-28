@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <script>
+      (function() {
+        try {
+          var currentFetch = window.fetch ? window.fetch.bind(window) : undefined;
+          Object.defineProperty(window, 'fetch', {
+            get: function() { return currentFetch; },
+            set: function(fn) { currentFetch = fn; },
+            configurable: true,
+            enumerable: true
+          });
+        } catch (e) {}
+      })();
+    </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+    <title>Ankora — Ajuda e Destinos Oficiais de Emergência</title>
+    <meta name="description" content="Em até três toques e sem internet, encontre a área de espera da Proteção Civil, embaixada ou consulado mais próximo na Itália com frases de emergência." />
+    <meta property="og:title" content="Ankora — Ajuda e Destinos Oficiais de Emergência" />
+    <meta property="og:description" content="Em até três toques e sem internet, encontre a área de espera da Proteção Civil, embaixada ou consulado mais próximo na Itália com frases de emergência." />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Ankora" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Ankora — Ajuda e Destinos Oficiais de Emergência" />
+    <meta name="twitter:description" content="Encontre a área de espera da Proteção Civil ou consulado mais próximo na Itália sem internet." />
+    
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "Ankora",
+      "applicationCategory": "EmergencyApplication",
+      "operatingSystem": "All",
+      "description": "Ajuda e destinos de emergência sem internet para estrangeiros na Itália com áreas de espera da Proteção Civil, consulados e frases essenciais.",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "EUR"
+      }
+    }
+    </script>
+    <meta name="theme-color" content="#0F2B3D" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="Ankora" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/svg+xml" href="/icon.svg" />
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@600&display=swap" rel="stylesheet">
+  </head>
+  <body class="bg-[#F3F5F7] dark:bg-[#0A1720] text-[#0F2B3D] dark:text-[#E6EDF2] antialiased selection:bg-[#F26A21]/20">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+

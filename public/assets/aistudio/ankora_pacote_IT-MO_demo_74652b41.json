@@ -1,0 +1,5261 @@
+{
+ "pacote": "IT-MO",
+ "versao_dados": "2026-10-28",
+ "pais": "Itália",
+ "cidade_piloto": "Modena",
+ "numero_emergencia": "112",
+ "aviso_demo": "Dados para DEMONSTRAÇÃO. Não usar em emergência real.",
+ "atribuicao": [
+  "Dati: Ministero degli Affari Esteri (Lista Consolare 15/07/2026, Lista Diplomatica 19/08/2026)",
+  "Aree di emergenza: Comune di Modena",
+  "Coordenadas das missões: © OpenStreetMap contributors (ODbL)"
+ ],
+ "areas_emergencia_modena": [
+  {
+   "id": "a0",
+   "tipo": "area_espera",
+   "nome": "Parcheggio Polo Leonardo",
+   "endereco": "Viale Leonardo da Vinci",
+   "lat": 44.646474,
+   "lon": 10.888969,
+   "para_publico": true,
+   "fonte": "Comune di Modena, mapa \"Aree di emergenza\" (2021) — correspondência com o plano de 2024 em verificação"
+  },
+  {
+   "id": "a1",
+   "tipo": "area_espera",
+   "nome": "Parcheggio Polisportiva Madonnina",
+   "endereco": "Via Don Pasquino Fiorenzi",
+   "lat": 44.654842,
+   "lon": 10.89576,
+   "para_publico": true,
+   "fonte": "Comune di Modena, mapa \"Aree di emergenza\" (2021) — correspondência com o plano de 2024 em verificação"
+  },
+  {
+   "id": "a2",
+   "tipo": "area_espera",
+   "nome": "Parcheggio Polisportiva Villa D’oro",
+   "endereco": "Via del Lancillotto",
+   "lat": 44.654404,
+   "lon": 10.935066,
+   "para_publico": true,
+   "fonte": "Comune di Modena, mapa \"Aree di emergenza\" (2021) — correspondência com o plano de 2024 em verificação"
+  },
+  {
+   "id": "a3",
+   "tipo": "area_espera",
+   "nome": "Parcheggio PalaMolza",
+   "endereco": "Viale Molza",
+   "lat": 44.650285,
+   "lon": 10.920236,
+   "para_publico": true,
+   "fonte": "Comune di Modena, mapa \"Aree di emergenza\" (2021) — correspondência com o plano de 2024 em verificação"
+  },
+  {
+   "id": "a4",
+   "tipo": "area_espera",
+   "nome": "Giardini Pubblici",
+   "endereco": "Corso Canalgrande",
+   "lat": 44.649072,
+   "lon": 10.932854,
+   "para_publico": true,
+   "fonte": "Comune di Modena, mapa \"Aree di emergenza\" (2021) — correspondência com o plano de 2024 em verificação"
+  },
+  {
+   "id": "a5",
+   "tipo": "area_espera",
+   "nome": "Parcheggio Polisportiva Polivalente 87 G. Pini",
+   "endereco": "Viale Pio La Torre",
+   "lat": 44.618262,
+   "lon": 10.924083,
+   "para_publico": true,
+   "fonte": "Comune di Modena, mapa \"Aree di emergenza\" (2021) — correspondência com o plano de 2024 em verificação"
+  },
+  {
+   "id": "a6",
+   "tipo": "area_espera",
+   "nome": "Parcheggio Parco Amendola Sud",
+   "endereco": "Via Panni",
+   "lat": 44.627334,
+   "lon": 10.909087,
+   "para_publico": true,
+   "fonte": "Comune di Modena, mapa \"Aree di emergenza\" (2021) — correspondência com o plano de 2024 em verificação"
+  },
+  {
+   "id": "a7",
+   "tipo": "area_espera",
+   "nome": "Parcheggio Palapanini",
+   "endereco": "Via dello Sport",
+   "lat": 44.645811,
+   "lon": 10.954749,
+   "para_publico": true,
+   "fonte": "Comune di Modena, mapa \"Aree di emergenza\" (2021) — correspondência com o plano de 2024 em verificação"
+  },
+  {
+   "id": "a8",
+   "tipo": "area_espera",
+   "nome": "Parcheggio Polisportiva Modena Est",
+   "endereco": "Via 9 Gennaio 1950",
+   "lat": 44.637383,
+   "lon": 10.968511,
+   "para_publico": true,
+   "fonte": "Comune di Modena, mapa \"Aree di emergenza\" (2021) — correspondência com o plano de 2024 em verificação"
+  },
+  {
+   "id": "a9",
+   "tipo": "area_espera",
+   "nome": "Parcheggio scambiatore",
+   "endereco": "Via Gottardi",
+   "lat": 44.630608,
+   "lon": 10.949744,
+   "para_publico": true,
+   "fonte": "Comune di Modena, mapa \"Aree di emergenza\" (2021) — correspondência com o plano de 2024 em verificação"
+  },
+  {
+   "id": "a10",
+   "tipo": "area_espera",
+   "nome": "Parcheggio Polisportiva Quattro Ville",
+   "endereco": "Via G. Barbolini (Villanova)",
+   "lat": 44.689744,
+   "lon": 10.915892,
+   "para_publico": true,
+   "fonte": "Comune di Modena, mapa \"Aree di emergenza\" (2021) — correspondência com o plano de 2024 em verificação"
+  },
+  {
+   "id": "a11",
+   "tipo": "area_espera",
+   "nome": "Area inghiaiata Polisportiva Albareto",
+   "endereco": "Strada Battaglia",
+   "lat": 44.686161,
+   "lon": 10.964133,
+   "para_publico": true,
+   "fonte": "Comune di Modena, mapa \"Aree di emergenza\" (2021) — correspondência com o plano de 2024 em verificação"
+  },
+  {
+   "id": "a12",
+   "tipo": "area_espera",
+   "nome": "Parcheggio Palestra/Scuola",
+   "endereco": "Via Del Gaggiolo (S. Damaso)",
+   "lat": 44.602832,
+   "lon": 10.971506,
+   "para_publico": true,
+   "fonte": "Comune di Modena, mapa \"Aree di emergenza\" (2021) — correspondência com o plano de 2024 em verificação"
+  },
+  {
+   "id": "a13",
+   "tipo": "area_espera",
+   "nome": "Parcheggio EST Polisportiva S. Donnino",
+   "endereco": "Strada Tre Case",
+   "lat": 44.586261,
+   "lon": 10.973531,
+   "para_publico": true,
+   "fonte": "Comune di Modena, mapa \"Aree di emergenza\" (2021) — correspondência com o plano de 2024 em verificação"
+  },
+  {
+   "id": "a14",
+   "tipo": "area_espera",
+   "nome": "Parcheggio Polisportiva Union 81",
+   "endereco": "Via Tincani e Martelli (Portile)",
+   "lat": 44.581838,
+   "lon": 10.934431,
+   "para_publico": true,
+   "fonte": "Comune di Modena, mapa \"Aree di emergenza\" (2021) — correspondência com o plano de 2024 em verificação"
+  },
+  {
+   "id": "a15",
+   "tipo": "area_espera",
+   "nome": "Parcheggio di fronte Polisportiva Baggiovara",
+   "endereco": "Strada Cavezzo, 27 (Baggiovara)",
+   "lat": 44.603745,
+   "lon": 10.863923,
+   "para_publico": true,
+   "fonte": "Comune di Modena, mapa \"Aree di emergenza\" (2021) — correspondência com o plano de 2024 em verificação"
+  },
+  {
+   "id": "a16",
+   "tipo": "area_espera",
+   "nome": "Parcheggio Polisportiva Cognentese",
+   "endereco": "Via Tonini (Cognento)",
+   "lat": 44.633653,
+   "lon": 10.872995,
+   "para_publico": true,
+   "fonte": "Comune di Modena, mapa \"Aree di emergenza\" (2021) — correspondência com o plano de 2024 em verificação"
+  },
+  {
+   "id": "a17",
+   "tipo": "area_espera",
+   "nome": "Parco Falcone e Borsellino",
+   "endereco": "Via Magnaghi (Cittanova)",
+   "lat": 44.645724,
+   "lon": 10.845513,
+   "para_publico": true,
+   "fonte": "Comune di Modena, mapa \"Aree di emergenza\" (2021) — correspondência com o plano de 2024 em verificação"
+  },
+  {
+   "id": "a18",
+   "tipo": "area_espera",
+   "nome": "Parco Via Polacci",
+   "endereco": "(Marzaglia)",
+   "lat": 44.641505,
+   "lon": 10.807629,
+   "para_publico": true,
+   "fonte": "Comune di Modena, mapa \"Aree di emergenza\" (2021) — correspondência com o plano de 2024 em verificação"
+  },
+  {
+   "id": "a19",
+   "tipo": "area_espera",
+   "nome": "Campo da calcetto asfaltato",
+   "endereco": "Via Vigna Verde (Lesignana)",
+   "lat": 44.68639,
+   "lon": 10.893414,
+   "para_publico": true,
+   "fonte": "Comune di Modena, mapa \"Aree di emergenza\" (2021) — correspondência com o plano de 2024 em verificação"
+  },
+  {
+   "id": "a20",
+   "tipo": "area_espera",
+   "nome": "Parco Via Cambi",
+   "endereco": "(Ganaceto)",
+   "lat": 44.708267,
+   "lon": 10.900901,
+   "para_publico": true,
+   "fonte": "Comune di Modena, mapa \"Aree di emergenza\" (2021) — correspondência com o plano de 2024 em verificação"
+  },
+  {
+   "id": "a21",
+   "tipo": "acolhimento_coberto",
+   "nome": "Palanderlini",
+   "endereco": "Via Vellani Marchi, 106",
+   "lat": 44.639895,
+   "lon": 10.901796,
+   "para_publico": false,
+   "fonte": "Comune di Modena, mapa \"Aree di emergenza\" (2021) — correspondência com o plano de 2024 em verificação"
+  },
+  {
+   "id": "a22",
+   "tipo": "acolhimento_coberto",
+   "nome": "PalaMolza",
+   "endereco": "Viale Molza, 20",
+   "lat": 44.65121,
+   "lon": 10.919917,
+   "para_publico": false,
+   "fonte": "Comune di Modena, mapa \"Aree di emergenza\" (2021) — correspondência com o plano de 2024 em verificação"
+  },
+  {
+   "id": "a23",
+   "tipo": "acolhimento_coberto",
+   "nome": "Palestra scuola media “Lanfranco”",
+   "endereco": "Via Valli, 40",
+   "lat": 44.631184,
+   "lon": 10.91238,
+   "para_publico": false,
+   "fonte": "Comune di Modena, mapa \"Aree di emergenza\" (2021) — correspondência com o plano de 2024 em verificação"
+  },
+  {
+   "id": "a24",
+   "tipo": "acolhimento_coberto",
+   "nome": "Palestra scuola media “Ferraris”",
+   "endereco": "Via Divisioni Acqui, 160",
+   "lat": 44.643617,
+   "lon": 10.950454,
+   "para_publico": false,
+   "fonte": "Comune di Modena, mapa \"Aree di emergenza\" (2021) — correspondência com o plano de 2024 em verificação"
+  },
+  {
+   "id": "a25",
+   "tipo": "acolhimento_coberto",
+   "nome": "Chiesa Gesù Redentore",
+   "endereco": "Viale Leonardo da Vinci, 270",
+   "lat": 44.646801,
+   "lon": 10.890289,
+   "para_publico": false,
+   "fonte": "Comune di Modena, mapa \"Aree di emergenza\" (2021) — correspondência com o plano de 2024 em verificação"
+  },
+  {
+   "id": "a26",
+   "tipo": "acolhimento_ar_livre",
+   "nome": "Parcheggio Chiesa Gesù Redentore",
+   "endereco": "Viale Leonardo da Vinci",
+   "lat": 44.645567,
+   "lon": 10.891861,
+   "para_publico": false,
+   "fonte": "Comune di Modena, mapa \"Aree di emergenza\" (2021) — correspondência com o plano de 2024 em verificação"
+  },
+  {
+   "id": "a27",
+   "tipo": "acolhimento_ar_livre",
+   "nome": "Parco Ferrari",
+   "endereco": "Viale Italia",
+   "lat": 44.649925,
+   "lon": 10.90951,
+   "para_publico": false,
+   "fonte": "Comune di Modena, mapa \"Aree di emergenza\" (2021) — correspondência com o plano de 2024 em verificação"
+  },
+  {
+   "id": "a28",
+   "tipo": "acolhimento_ar_livre",
+   "nome": "Anello esterno parco Novi Sad",
+   "endereco": "Viale Monte Kosica",
+   "lat": 44.651185,
+   "lon": 10.922738,
+   "para_publico": false,
+   "fonte": "Comune di Modena, mapa \"Aree di emergenza\" (2021) — correspondência com o plano de 2024 em verificação"
+  },
+  {
+   "id": "a29",
+   "tipo": "acolhimento_ar_livre",
+   "nome": "Parcheggio area spettacoli itineranti (sud)",
+   "endereco": "Viale dello Sport",
+   "lat": 44.645758,
+   "lon": 10.952162,
+   "para_publico": false,
+   "fonte": "Comune di Modena, mapa \"Aree di emergenza\" (2021) — correspondência com o plano de 2024 em verificação"
+  },
+  {
+   "id": "a30",
+   "tipo": "acolhimento_ar_livre",
+   "nome": "Area inghiaiata Polisportiva “Polivalente 87 - G. Pini”",
+   "endereco": "Viale Pio La Torre",
+   "lat": 44.618075,
+   "lon": 10.92287,
+   "para_publico": false,
+   "fonte": "Comune di Modena, mapa \"Aree di emergenza\" (2021) — correspondência com o plano de 2024 em verificação"
+  },
+  {
+   "id": "a31",
+   "tipo": "acolhimento_ar_livre",
+   "nome": "Parcheggio Polisportiva Saliceta San Giuliano",
+   "endereco": "Via Panni",
+   "lat": 44.627683,
+   "lon": 10.901538,
+   "para_publico": false,
+   "fonte": "Comune di Modena, mapa \"Aree di emergenza\" (2021) — correspondência com o plano de 2024 em verificação"
+  },
+  {
+   "id": "a32",
+   "tipo": "acolhimento_ar_livre",
+   "nome": "Piazzale Stazione Quattro Ville",
+   "endereco": "Strada delle Quattro Ville (Villanova)",
+   "lat": 44.691131,
+   "lon": 10.912415,
+   "para_publico": false,
+   "fonte": "Comune di Modena, mapa \"Aree di emergenza\" (2021) — correspondência com o plano de 2024 em verificação"
+  },
+  {
+   "id": "a33",
+   "tipo": "acolhimento_ar_livre",
+   "nome": "Parcheggio Polisportiva Albareto",
+   "endereco": "Strada Albareto",
+   "lat": 44.686436,
+   "lon": 10.964846,
+   "para_publico": false,
+   "fonte": "Comune di Modena, mapa \"Aree di emergenza\" (2021) — correspondência com o plano de 2024 em verificação"
+  },
+  {
+   "id": "a34",
+   "tipo": "acolhimento_ar_livre",
+   "nome": "Parcheggio Palestra Polisportiva S. Damaso",
+   "endereco": "Stradello Scartazzetta",
+   "lat": 44.599622,
+   "lon": 10.974592,
+   "para_publico": false,
+   "fonte": "Comune di Modena, mapa \"Aree di emergenza\" (2021) — correspondência com o plano de 2024 em verificação"
+  },
+  {
+   "id": "a35",
+   "tipo": "acolhimento_ar_livre",
+   "nome": "Parcheggio OVEST Polisportiva San Donnino",
+   "endereco": "Via della Genziana",
+   "lat": 44.586368,
+   "lon": 10.972049,
+   "para_publico": false,
+   "fonte": "Comune di Modena, mapa \"Aree di emergenza\" (2021) — correspondência com o plano de 2024 em verificação"
+  },
+  {
+   "id": "a36",
+   "tipo": "acolhimento_ar_livre",
+   "nome": "Campo sportivo Polisportiva “Union 81”",
+   "endereco": "Via Tincani e Martelli (Portile)",
+   "lat": 44.581193,
+   "lon": 10.934875,
+   "para_publico": false,
+   "fonte": "Comune di Modena, mapa \"Aree di emergenza\" (2021) — correspondência com o plano de 2024 em verificação"
+  },
+  {
+   "id": "a37",
+   "tipo": "acolhimento_ar_livre",
+   "nome": "Parcheggio Polisportiva Baggiovara",
+   "endereco": "Strada Cavezzo (Baggiovara)",
+   "lat": 44.603437,
+   "lon": 10.86462,
+   "para_publico": false,
+   "fonte": "Comune di Modena, mapa \"Aree di emergenza\" (2021) — correspondência com o plano de 2024 em verificação"
+  },
+  {
+   "id": "a38",
+   "tipo": "acolhimento_ar_livre",
+   "nome": "Parco Melotti",
+   "endereco": "Via Benzi (Cognento)",
+   "lat": 44.632131,
+   "lon": 10.870534,
+   "para_publico": false,
+   "fonte": "Comune di Modena, mapa \"Aree di emergenza\" (2021) — correspondência com o plano de 2024 em verificação"
+  },
+  {
+   "id": "a39",
+   "tipo": "acolhimento_ar_livre",
+   "nome": "Camping Caravan",
+   "endereco": "Strada Pomposiana (Marzaglia)",
+   "lat": 44.635032,
+   "lon": 10.805692,
+   "para_publico": false,
+   "fonte": "Comune di Modena, mapa \"Aree di emergenza\" (2021) — correspondência com o plano de 2024 em verificação"
+  },
+  {
+   "id": "a40",
+   "tipo": "concentracao_socorro",
+   "nome": "Parco Ferrari",
+   "endereco": "Viale Italia",
+   "lat": 44.648735,
+   "lon": 10.907841,
+   "para_publico": false,
+   "fonte": "Comune di Modena, mapa \"Aree di emergenza\" (2021) — correspondência com o plano de 2024 em verificação"
+  },
+  {
+   "id": "a41",
+   "tipo": "concentracao_socorro",
+   "nome": "Parcheggio area spettacoli itineranti (nord)",
+   "endereco": "Viale dello Sport",
+   "lat": 44.646918,
+   "lon": 10.952699,
+   "para_publico": false,
+   "fonte": "Comune di Modena, mapa \"Aree di emergenza\" (2021) — correspondência com o plano de 2024 em verificação"
+  },
+  {
+   "id": "a42",
+   "tipo": "concentracao_socorro",
+   "nome": "Area Polifunzionale presso CUP",
+   "endereco": "Strada Pomposiana, 375 (Marzaglia)",
+   "lat": 44.638113,
+   "lon": 10.806078,
+   "para_publico": false,
+   "fonte": "Comune di Modena, mapa \"Aree di emergenza\" (2021) — correspondência com o plano de 2024 em verificação"
+  }
+ ],
+ "missoes_com_coordenada": [
+  {
+   "id": "m0",
+   "tipo": "consulado_carreira",
+   "pais_iso": "AL",
+   "pais_nome_it": "Albania",
+   "cidade": "Bari",
+   "endereco": "Via Pasquale Villari, 50 - 70122 Bari",
+   "lat": 41.126417,
+   "lon": 16.86452,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+390805289728"
+   ],
+   "telefone_principal": "+390805289728"
+  },
+  {
+   "id": "m1",
+   "tipo": "consulado_carreira",
+   "pais_iso": "AL",
+   "pais_nome_it": "Albania",
+   "cidade": "Milano",
+   "endereco": "Via San Martino, 10 - 20122 Milano",
+   "lat": 45.453135,
+   "lon": 9.188617,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+39028051265"
+   ],
+   "telefone_principal": "+39028051265"
+  },
+  {
+   "id": "m7",
+   "tipo": "consulado_carreira",
+   "pais_iso": "DZ",
+   "pais_nome_it": "Algeria",
+   "cidade": "Milano",
+   "endereco": "Via Rovello, 7/11 – 20121 Milano",
+   "lat": 45.467697,
+   "lon": 9.183907,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+390272080603",
+    "+390272003266"
+   ],
+   "telefone_principal": "+390272080603"
+  },
+  {
+   "id": "m10",
+   "tipo": "consulado_carreira",
+   "pais_iso": "AR",
+   "pais_nome_it": "Argentina",
+   "cidade": "Milano",
+   "endereco": "Via Agnello, 2 – 4° piano - 20121 Milano",
+   "lat": 45.465179,
+   "lon": 9.193363,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+390277729420",
+    "+390277729430",
+    "+390277729429"
+   ],
+   "telefone_principal": "+390277729420"
+  },
+  {
+   "id": "m13",
+   "tipo": "consulado_honorario",
+   "pais_iso": "AM",
+   "pais_nome_it": "Armenia",
+   "cidade": "Milano",
+   "endereco": "Via Teodosio, 7- 20131 Milano",
+   "lat": 45.483049,
+   "lon": 9.229741,
+   "verificacao": "verificado",
+   "servico_limitado": true,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+390270600741"
+   ],
+   "telefone_principal": "+390270600741"
+  },
+  {
+   "id": "m15",
+   "tipo": "consulado_carreira",
+   "pais_iso": "AU",
+   "pais_nome_it": "Australia",
+   "cidade": "Milano",
+   "endereco": "Via Borgogna, 2 - 20122 Milano",
+   "lat": 45.465627,
+   "lon": 9.198897,
+   "verificacao": "em_verificacao",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+390277674200"
+   ],
+   "telefone_principal": "+390277674200"
+  },
+  {
+   "id": "m16",
+   "tipo": "consulado_carreira",
+   "pais_iso": "AT",
+   "pais_nome_it": "Austria",
+   "cidade": "Milano",
+   "endereco": "Corso di Porta Romana 68, piano 7° - 20122 Milano",
+   "lat": 45.465618,
+   "lon": 9.193933,
+   "verificacao": "em_verificacao",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+39028790911"
+   ],
+   "telefone_principal": "+39028790911"
+  },
+  {
+   "id": "m17",
+   "tipo": "consulado_honorario",
+   "pais_iso": "AT",
+   "pais_nome_it": "Austria",
+   "cidade": "Bari",
+   "endereco": "Via Domenico Nicolai, 21 - 70122 Bari",
+   "lat": 41.121372,
+   "lon": 16.86813,
+   "verificacao": "verificado",
+   "servico_limitado": true,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+390802223037"
+   ],
+   "telefone_principal": "+390802223037"
+  },
+  {
+   "id": "m26",
+   "tipo": "consulado_honorario",
+   "pais_iso": "AT",
+   "pais_nome_it": "Austria",
+   "cidade": "Verona",
+   "endereco": "Piazza Bra, 10 - 37121 Verona",
+   "lat": 45.445004,
+   "lon": 11.000635,
+   "verificacao": "em_verificacao",
+   "servico_limitado": true,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+393357189051"
+   ],
+   "telefone_principal": "+393357189051"
+  },
+  {
+   "id": "m30",
+   "tipo": "consulado_carreira",
+   "pais_iso": "BD",
+   "pais_nome_it": "Bangladesh",
+   "cidade": "Milano",
+   "endereco": "Via Giambellino, 7 - 20146 Milano",
+   "lat": 45.451687,
+   "lon": 9.152543,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+390287068580"
+   ],
+   "telefone_principal": "+390287068580"
+  },
+  {
+   "id": "m41",
+   "tipo": "consulado_honorario",
+   "pais_iso": "BE",
+   "pais_nome_it": "Belgio",
+   "cidade": "Bari",
+   "endereco": "Via Napoli, 353/3 - 70132 Bari",
+   "lat": 41.12909,
+   "lon": 16.836201,
+   "verificacao": "verificado",
+   "servico_limitado": true,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+390805348577",
+    "+393292111145"
+   ],
+   "telefone_principal": "+390805348577"
+  },
+  {
+   "id": "m52",
+   "tipo": "consulado_carreira",
+   "pais_iso": "BO",
+   "pais_nome_it": "Bolivia",
+   "cidade": "Milano",
+   "endereco": "Corso Buenos Aires, 64 – 2° piano, scala C – 20124 Milano",
+   "lat": 45.482195,
+   "lon": 9.2132,
+   "verificacao": "em_verificacao",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [],
+   "telefone_principal": null
+  },
+  {
+   "id": "m54",
+   "tipo": "consulado_carreira",
+   "pais_iso": "BA",
+   "pais_nome_it": "Bosnia Ed Erzegovina",
+   "cidade": "Milano",
+   "endereco": "Via Luigi Galvani, 21 - 20124 Milano",
+   "lat": 45.48727,
+   "lon": 9.197331,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+390266982826"
+   ],
+   "telefone_principal": "+390266982826"
+  },
+  {
+   "id": "m58",
+   "tipo": "consulado_carreira",
+   "pais_iso": "BR",
+   "pais_nome_it": "Brasile",
+   "cidade": "Milano",
+   "endereco": "Corso Europa, 12 - 20122 Milano",
+   "lat": 45.464128,
+   "lon": 9.196506,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+39027771071"
+   ],
+   "telefone_principal": "+39027771071"
+  },
+  {
+   "id": "m59",
+   "tipo": "consulado_carreira",
+   "pais_iso": "BR",
+   "pais_nome_it": "Brasile",
+   "cidade": "Roma",
+   "endereco": "Piazza Pasquino, 8 - 00186 Roma",
+   "lat": 41.897812,
+   "lon": 12.472434,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+39066889661"
+   ],
+   "telefone_principal": "+39066889661"
+  },
+  {
+   "id": "m60",
+   "tipo": "consulado_honorario",
+   "pais_iso": "BR",
+   "pais_nome_it": "Brasile",
+   "cidade": "Bari",
+   "endereco": "Via Melo da Bari, n.218 70122 Bari",
+   "lat": 41.119656,
+   "lon": 16.871883,
+   "verificacao": "verificado",
+   "servico_limitado": true,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+393755354904"
+   ],
+   "telefone_principal": "+393755354904"
+  },
+  {
+   "id": "m72",
+   "tipo": "consulado_honorario",
+   "pais_iso": "BG",
+   "pais_nome_it": "Bulgaria",
+   "cidade": "Bari",
+   "endereco": "Via De Rossi, 195 – 70122 Bari",
+   "lat": 41.120233,
+   "lon": 16.865586,
+   "verificacao": "verificado",
+   "servico_limitado": true,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [],
+   "telefone_principal": null
+  },
+  {
+   "id": "m82",
+   "tipo": "consulado_carreira",
+   "pais_iso": "BF",
+   "pais_nome_it": "Burkina Faso",
+   "cidade": "Milano",
+   "endereco": "Via Santa Tecla, 4 – 20122 Milano",
+   "lat": 45.462597,
+   "lon": 9.193292,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+390247760298"
+   ],
+   "telefone_principal": "+390247760298"
+  },
+  {
+   "id": "m84",
+   "tipo": "consulado_honorario",
+   "pais_iso": "BF",
+   "pais_nome_it": "Burkina Faso",
+   "cidade": "Torino",
+   "endereco": "via G. Pomba, 29 – 10123 Torino",
+   "lat": 45.069727,
+   "lon": 7.687976,
+   "verificacao": "em_verificacao",
+   "servico_limitado": true,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+390116202649"
+   ],
+   "telefone_principal": "+390116202649"
+  },
+  {
+   "id": "m92",
+   "tipo": "consulado_carreira",
+   "pais_iso": "CA",
+   "pais_nome_it": "Canada",
+   "cidade": "Milano",
+   "endereco": "Forma Milano – via Cavallotti, 14 / via Verziere, 11– 20122 Milano",
+   "lat": 45.463367,
+   "lon": 9.196287,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+3902854443680"
+   ],
+   "telefone_principal": "+3902854443680"
+  },
+  {
+   "id": "m93",
+   "tipo": "consulado_carreira",
+   "pais_iso": "CZ",
+   "pais_nome_it": "Repubblica Ceca",
+   "cidade": "Milano",
+   "endereco": "Via Giovanni Battista Morgagni, 20 - 20129 Milano",
+   "lat": 45.478115,
+   "lon": 9.212789,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+390236509539"
+   ],
+   "telefone_principal": "+390236509539"
+  },
+  {
+   "id": "m94",
+   "tipo": "consulado_honorario",
+   "pais_iso": "CZ",
+   "pais_nome_it": "Repubblica Ceca",
+   "cidade": "Ancona",
+   "endereco": "via Carlo Maratta, 8 bis – 60123 Ancona",
+   "lat": 43.569015,
+   "lon": 13.511134,
+   "verificacao": "em_verificacao",
+   "servico_limitado": true,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+393393782128"
+   ],
+   "telefone_principal": "+393393782128"
+  },
+  {
+   "id": "m95",
+   "tipo": "consulado_honorario",
+   "pais_iso": "CZ",
+   "pais_nome_it": "Repubblica Ceca",
+   "cidade": "Bari",
+   "endereco": "Piazza Luigi di Savoia, 5 - 70121 Bari",
+   "lat": 41.119861,
+   "lon": 16.873817,
+   "verificacao": "verificado",
+   "servico_limitado": true,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+390805240523"
+   ],
+   "telefone_principal": "+390805240523"
+  },
+  {
+   "id": "m96",
+   "tipo": "consulado_honorario",
+   "pais_iso": "CZ",
+   "pais_nome_it": "Repubblica Ceca",
+   "cidade": "Cagliari",
+   "endereco": "Via Sonnino, 57 – 09127 Cagliari",
+   "lat": 39.216979,
+   "lon": 9.125308,
+   "verificacao": "em_verificacao",
+   "servico_limitado": true,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+39070654420",
+    "+390708566396"
+   ],
+   "telefone_principal": "+39070654420"
+  },
+  {
+   "id": "m97",
+   "tipo": "consulado_honorario",
+   "pais_iso": "CZ",
+   "pais_nome_it": "Repubblica Ceca",
+   "cidade": "Firenze",
+   "endereco": "Via Umberto Maddalena, 32R - 50127 Firenze",
+   "lat": 43.795907,
+   "lon": 11.230732,
+   "verificacao": "verificado",
+   "servico_limitado": true,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+39055284454"
+   ],
+   "telefone_principal": "+39055284454"
+  },
+  {
+   "id": "m98",
+   "tipo": "consulado_honorario",
+   "pais_iso": "CZ",
+   "pais_nome_it": "Repubblica Ceca",
+   "cidade": "Napoli",
+   "endereco": "Corso Umberto I, 275 - 80138 Napoli",
+   "lat": 40.849188,
+   "lon": 14.264316,
+   "verificacao": "verificado",
+   "servico_limitado": true,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+39081268784"
+   ],
+   "telefone_principal": "+39081268784"
+  },
+  {
+   "id": "m99",
+   "tipo": "consulado_honorario",
+   "pais_iso": "CZ",
+   "pais_nome_it": "Repubblica Ceca",
+   "cidade": "Palermo",
+   "endereco": "Via Giuseppe Giusti, 3 - 90144 Palermo",
+   "lat": 38.129827,
+   "lon": 13.354561,
+   "verificacao": "em_verificacao",
+   "servico_limitado": true,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+393387676343"
+   ],
+   "telefone_principal": "+393387676343"
+  },
+  {
+   "id": "m101",
+   "tipo": "consulado_honorario",
+   "pais_iso": "CZ",
+   "pais_nome_it": "Repubblica Ceca",
+   "cidade": "Udine",
+   "endereco": "Via San Francesco, 34 - 33100 Udine",
+   "lat": 46.061468,
+   "lon": 13.2391,
+   "verificacao": "verificado",
+   "servico_limitado": true,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+390432509445"
+   ],
+   "telefone_principal": "+390432509445"
+  },
+  {
+   "id": "m102",
+   "tipo": "consulado_carreira",
+   "pais_iso": "CL",
+   "pais_nome_it": "Cile",
+   "cidade": "Milano",
+   "endereco": "Via Ricasoli, 2 - 20121 Milano",
+   "lat": 45.468172,
+   "lon": 9.179831,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+3902864093",
+    "+3902865769"
+   ],
+   "telefone_principal": "+3902864093"
+  },
+  {
+   "id": "m111",
+   "tipo": "consulado_carreira",
+   "pais_iso": "CN",
+   "pais_nome_it": "Cina",
+   "cidade": "Milano",
+   "endereco": "Via Benaco, 4 - 20139 Milano",
+   "lat": 45.44445,
+   "lon": 9.21155,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+39025693869"
+   ],
+   "telefone_principal": "+39025693869"
+  },
+  {
+   "id": "m114",
+   "tipo": "consulado_honorario",
+   "pais_iso": "CY",
+   "pais_nome_it": "Cipro",
+   "cidade": "Milano",
+   "endereco": "via Pietro Tamburini, 8 – 20123 Milano",
+   "lat": 45.469681,
+   "lon": 9.168391,
+   "verificacao": "verificado",
+   "servico_limitado": true,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+393356123928"
+   ],
+   "telefone_principal": "+393356123928"
+  },
+  {
+   "id": "m121",
+   "tipo": "consulado_carreira",
+   "pais_iso": "CO",
+   "pais_nome_it": "Colombia",
+   "cidade": "Roma",
+   "endereco": "Piazzale Flaminio, 9 1° p. scala A int. 2 - 00196 Roma",
+   "lat": 41.912052,
+   "lon": 12.4753,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+39063216070",
+    "+39063222747",
+    "+39063222722"
+   ],
+   "telefone_principal": "+39063216070"
+  },
+  {
+   "id": "m129",
+   "tipo": "consulado_carreira",
+   "pais_iso": "KR",
+   "pais_nome_it": "Corea",
+   "cidade": "Milano",
+   "endereco": "Piazza Cavour, 3 (IV piano) - 20121 Milano",
+   "lat": 45.472822,
+   "lon": 9.194538,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+390229062641"
+   ],
+   "telefone_principal": "+390229062641"
+  },
+  {
+   "id": "m144",
+   "tipo": "consulado_carreira",
+   "pais_iso": "HR",
+   "pais_nome_it": "Croazia",
+   "cidade": "Milano",
+   "endereco": "Piazzale Luigi Cadorna, 15 - 20123 Milano",
+   "lat": 45.467743,
+   "lon": 9.17581,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+39028051772"
+   ],
+   "telefone_principal": "+39028051772"
+  },
+  {
+   "id": "m146",
+   "tipo": "consulado_honorario",
+   "pais_iso": "HR",
+   "pais_nome_it": "Croazia",
+   "cidade": "Bari",
+   "endereco": "Via Dante Alighieri, 25 - 70121 Bari",
+   "lat": 41.122088,
+   "lon": 16.869194,
+   "verificacao": "em_verificacao",
+   "servico_limitado": true,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+39335412648"
+   ],
+   "telefone_principal": "+39335412648"
+  },
+  {
+   "id": "m150",
+   "tipo": "consulado_carreira",
+   "pais_iso": "CU",
+   "pais_nome_it": "Cuba",
+   "cidade": "Milano",
+   "endereco": "Via Gaspare Gozzi, 5 - 20129 Milano",
+   "lat": 45.469043,
+   "lon": 9.222377,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+3902866166"
+   ],
+   "telefone_principal": "+3902866166"
+  },
+  {
+   "id": "m152",
+   "tipo": "consulado_honorario",
+   "pais_iso": "DK",
+   "pais_nome_it": "Danimarca",
+   "cidade": "Milano",
+   "endereco": "Via Morigi, 4 - 20123 Milano",
+   "lat": 45.463005,
+   "lon": 9.180925,
+   "verificacao": "verificado",
+   "servico_limitado": true,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+390289012728"
+   ],
+   "telefone_principal": "+390289012728"
+  },
+  {
+   "id": "m164",
+   "tipo": "consulado_carreira",
+   "pais_iso": "DO",
+   "pais_nome_it": "Repubblica Dominicana",
+   "cidade": "Milano",
+   "endereco": "Corso Buenos Aires, 64 - 20124 Milano",
+   "lat": 45.482559,
+   "lon": 9.213409,
+   "verificacao": "em_verificacao",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+390220240965"
+   ],
+   "telefone_principal": "+390220240965"
+  },
+  {
+   "id": "m169",
+   "tipo": "consulado_carreira",
+   "pais_iso": "EC",
+   "pais_nome_it": "Ecuador",
+   "cidade": "Milano",
+   "endereco": "Via Alfredo Cappellini n. 21 – 20124 Milano",
+   "lat": 45.483009,
+   "lon": 9.200843,
+   "verificacao": "em_verificacao",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+390249534150",
+    "+390249534166",
+    "+390249534156"
+   ],
+   "telefone_principal": "+390249534150"
+  },
+  {
+   "id": "m178",
+   "tipo": "consulado_honorario",
+   "pais_iso": "SV",
+   "pais_nome_it": "El Salvador",
+   "cidade": "Ancona",
+   "endereco": "Palazzo Ajò via Astagno n.3 – 60122 Ancona",
+   "lat": 43.618183,
+   "lon": 13.510433,
+   "verificacao": "verificado",
+   "servico_limitado": true,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+390717451890",
+    "+393381336468"
+   ],
+   "telefone_principal": "+390717451890"
+  },
+  {
+   "id": "m183",
+   "tipo": "consulado_carreira",
+   "pais_iso": "ER",
+   "pais_nome_it": "Eritrea",
+   "cidade": "Milano",
+   "endereco": "Via Temperanza, 6 - 20127 Milano",
+   "lat": 45.490099,
+   "lon": 9.220513,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+390228999520"
+   ],
+   "telefone_principal": "+390228999520"
+  },
+  {
+   "id": "m186",
+   "tipo": "consulado_honorario",
+   "pais_iso": "EE",
+   "pais_nome_it": "Estonia",
+   "cidade": "Bari",
+   "endereco": "Corso Vittorio Emanuele II, 60 – 70122 Bari",
+   "lat": 41.125867,
+   "lon": 16.869101,
+   "verificacao": "verificado",
+   "servico_limitado": true,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [],
+   "telefone_principal": null
+  },
+  {
+   "id": "m193",
+   "tipo": "consulado_honorario",
+   "pais_iso": "ET",
+   "pais_nome_it": "Etiopia",
+   "cidade": "Milano",
+   "endereco": "Via Borromei, 9 - 20123 Milano",
+   "lat": 45.46435,
+   "lon": 9.181818,
+   "verificacao": "verificado",
+   "servico_limitado": true,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+390236577640"
+   ],
+   "telefone_principal": "+390236577640"
+  },
+  {
+   "id": "m199",
+   "tipo": "consulado_honorario",
+   "pais_iso": "FI",
+   "pais_nome_it": "Finlandia",
+   "cidade": "Bari",
+   "endereco": "Via Putignani, 141 - 70122 Bari",
+   "lat": 41.123259,
+   "lon": 16.866301,
+   "verificacao": "verificado",
+   "servico_limitado": true,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+390805214240"
+   ],
+   "telefone_principal": "+390805214240"
+  },
+  {
+   "id": "m202",
+   "tipo": "consulado_honorario",
+   "pais_iso": "FI",
+   "pais_nome_it": "Finlandia",
+   "cidade": "Milano",
+   "endereco": "Via Santa Tecla, 4 – 20122 Milano",
+   "lat": 45.462603,
+   "lon": 9.193135,
+   "verificacao": "verificado",
+   "servico_limitado": true,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+393316640852"
+   ],
+   "telefone_principal": "+393316640852"
+  },
+  {
+   "id": "m204",
+   "tipo": "consulado_honorario",
+   "pais_iso": "FI",
+   "pais_nome_it": "Finlandia",
+   "cidade": "Palermo",
+   "endereco": "Via dell’Arsenale, 24/30a - 90142 Palermo",
+   "lat": 38.16522,
+   "lon": 13.366722,
+   "verificacao": "em_verificacao",
+   "servico_limitado": true,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+390917770648"
+   ],
+   "telefone_principal": "+390917770648"
+  },
+  {
+   "id": "m209",
+   "tipo": "consulado_carreira",
+   "pais_iso": "FR",
+   "pais_nome_it": "Francia",
+   "cidade": "Milano",
+   "endereco": "Via della Moscova, 12 - 20121 Mlano",
+   "lat": 45.476207,
+   "lon": 9.194574,
+   "verificacao": "em_verificacao",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+39026559141"
+   ],
+   "telefone_principal": "+39026559141"
+  },
+  {
+   "id": "m210",
+   "tipo": "consulado_carreira",
+   "pais_iso": "FR",
+   "pais_nome_it": "Francia",
+   "cidade": "Napoli",
+   "endereco": "Via Francesco Crispi, 86 - 80121 Napoli",
+   "lat": 40.83622,
+   "lon": 14.22982,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+390815980711"
+   ],
+   "telefone_principal": "+390815980711"
+  },
+  {
+   "id": "m211",
+   "tipo": "consulado_carreira",
+   "pais_iso": "FR",
+   "pais_nome_it": "Francia",
+   "cidade": "Roma",
+   "endereco": "Via Giulia, 251 - 00186 Roma",
+   "lat": 41.893744,
+   "lon": 12.470362,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+3906686011"
+   ],
+   "telefone_principal": "+3906686011"
+  },
+  {
+   "id": "m228",
+   "tipo": "consulado_carreira",
+   "pais_iso": "GE",
+   "pais_nome_it": "Georgia",
+   "cidade": "Bari",
+   "endereco": "Via Vito Nicola de Nicolò, 48 – 70121 Bari",
+   "lat": 41.123656,
+   "lon": 16.874828,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [],
+   "telefone_principal": null
+  },
+  {
+   "id": "m232",
+   "tipo": "consulado_carreira",
+   "pais_iso": "DE",
+   "pais_nome_it": "Germania",
+   "cidade": "Milano",
+   "endereco": "Via Solferino, 40 - 20121 Milano",
+   "lat": 45.477952,
+   "lon": 9.188261,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+39026231101"
+   ],
+   "telefone_principal": "+39026231101"
+  },
+  {
+   "id": "m233",
+   "tipo": "consulado_honorario",
+   "pais_iso": "DE",
+   "pais_nome_it": "Germania",
+   "cidade": "Bari",
+   "endereco": "Via Argiro, 7 - 70122 Bari",
+   "lat": 41.125763,
+   "lon": 16.870079,
+   "verificacao": "verificado",
+   "servico_limitado": true,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [],
+   "telefone_principal": null
+  },
+  {
+   "id": "m237",
+   "tipo": "consulado_honorario",
+   "pais_iso": "DE",
+   "pais_nome_it": "Germania",
+   "cidade": "Genova",
+   "endereco": "Via Macaggi, 21-8 - 16121 Genova",
+   "lat": 44.403147,
+   "lon": 8.943308,
+   "verificacao": "em_verificacao",
+   "servico_limitado": true,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+39010590931"
+   ],
+   "telefone_principal": "+39010590931"
+  },
+  {
+   "id": "m239",
+   "tipo": "consulado_honorario",
+   "pais_iso": "DE",
+   "pais_nome_it": "Germania",
+   "cidade": "Napoli",
+   "endereco": "Largo F. Torraca, 71 - 80133 Napoli",
+   "lat": 40.841341,
+   "lon": 14.250737,
+   "verificacao": "verificado",
+   "servico_limitado": true,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+390812488511"
+   ],
+   "telefone_principal": "+390812488511"
+  },
+  {
+   "id": "m245",
+   "tipo": "consulado_carreira",
+   "pais_iso": "JP",
+   "pais_nome_it": "Giappone",
+   "cidade": "Milano",
+   "endereco": "Via privata Cesare Mangili, 2/4 - 20121 Milano",
+   "lat": 45.476452,
+   "lon": 9.1945,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+39026241141"
+   ],
+   "telefone_principal": "+39026241141"
+  },
+  {
+   "id": "m249",
+   "tipo": "consulado_honorario",
+   "pais_iso": "JO",
+   "pais_nome_it": "Giordania",
+   "cidade": "Milano",
+   "endereco": "Via Giotto, 26 – 20145 Milano",
+   "lat": 45.469052,
+   "lon": 9.157453,
+   "verificacao": "verificado",
+   "servico_limitado": true,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+3902437300"
+   ],
+   "telefone_principal": "+3902437300"
+  },
+  {
+   "id": "m250",
+   "tipo": "consulado_carreira",
+   "pais_iso": "GB",
+   "pais_nome_it": "Gran Bretagna",
+   "cidade": "Milano",
+   "endereco": "Via San Paolo, 7 - 20121 Milano",
+   "lat": 45.465679,
+   "lon": 9.193231,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+3902723001"
+   ],
+   "telefone_principal": "+3902723001"
+  },
+  {
+   "id": "m256",
+   "tipo": "consulado_honorario",
+   "pais_iso": "GR",
+   "pais_nome_it": "Grecia",
+   "cidade": "Milano",
+   "endereco": "Foro Buonaparte, 48 - 20121 Milano",
+   "lat": 45.471827,
+   "lon": 9.181773,
+   "verificacao": "verificado",
+   "servico_limitado": true,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [],
+   "telefone_principal": null
+  },
+  {
+   "id": "m259",
+   "tipo": "consulado_honorario",
+   "pais_iso": "GR",
+   "pais_nome_it": "Grecia",
+   "cidade": "Bari",
+   "endereco": "Via Amendola, 172/c - 70126 Bari",
+   "lat": 41.101049,
+   "lon": 16.888931,
+   "verificacao": "verificado",
+   "servico_limitado": true,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+390805468049"
+   ],
+   "telefone_principal": "+390805468049"
+  },
+  {
+   "id": "m276",
+   "tipo": "consulado_carreira",
+   "pais_iso": "IN",
+   "pais_nome_it": "India",
+   "cidade": "Milano",
+   "endereco": "Piazza Paolo Ferrari, 8 - 20121 Milano",
+   "lat": 45.466979,
+   "lon": 9.188429,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+39028057691"
+   ],
+   "telefone_principal": "+39028057691"
+  },
+  {
+   "id": "m283",
+   "tipo": "consulado_carreira",
+   "pais_iso": "IR",
+   "pais_nome_it": "Iran",
+   "cidade": "Milano",
+   "endereco": "Via Montebianco, 59 - 20149 Milano",
+   "lat": 45.478612,
+   "lon": 9.145004,
+   "verificacao": "em_verificacao",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+390289658800"
+   ],
+   "telefone_principal": "+390289658800"
+  },
+  {
+   "id": "m284",
+   "tipo": "consulado_carreira",
+   "pais_iso": "IE",
+   "pais_nome_it": "Irlanda",
+   "cidade": "Milano",
+   "endereco": "“Spaces Isola” – via Pola, 11 – IV piano - 20124 Milano",
+   "lat": 45.462789,
+   "lon": 9.201102,
+   "verificacao": "em_verificacao",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [],
+   "telefone_principal": null
+  },
+  {
+   "id": "m289",
+   "tipo": "consulado_honorario",
+   "pais_iso": "IL",
+   "pais_nome_it": "Israele",
+   "cidade": "Bari",
+   "endereco": "c/o Studio Legal Unit – Via Calefati, 6 – 1° p. - 70121 Bari",
+   "lat": 41.124051,
+   "lon": 16.871849,
+   "verificacao": "verificado",
+   "servico_limitado": true,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [],
+   "telefone_principal": null
+  },
+  {
+   "id": "m297",
+   "tipo": "consulado_carreira",
+   "pais_iso": "KW",
+   "pais_nome_it": "Kuwait",
+   "cidade": "Milano",
+   "endereco": "Corso Venezia, 26 - 20121 Milano",
+   "lat": 45.47694,
+   "lon": 9.195876,
+   "verificacao": "em_verificacao",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+390229062982"
+   ],
+   "telefone_principal": "+390229062982"
+  },
+  {
+   "id": "m299",
+   "tipo": "consulado_honorario",
+   "pais_iso": "LV",
+   "pais_nome_it": "Lettonia",
+   "cidade": "Milano",
+   "endereco": "Viale Decumano, 36-20157 Milano",
+   "lat": 45.458542,
+   "lon": 9.187933,
+   "verificacao": "em_verificacao",
+   "servico_limitado": true,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+393457034915"
+   ],
+   "telefone_principal": "+393457034915"
+  },
+  {
+   "id": "m303",
+   "tipo": "consulado_carreira",
+   "pais_iso": "LB",
+   "pais_nome_it": "Libano",
+   "cidade": "Milano",
+   "endereco": "Via Larga, 26 - 20122 Milano",
+   "lat": 45.460937,
+   "lon": 9.190892,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+39028061341"
+   ],
+   "telefone_principal": "+39028061341"
+  },
+  {
+   "id": "m313",
+   "tipo": "consulado_honorario",
+   "pais_iso": "LT",
+   "pais_nome_it": "Lituania",
+   "cidade": "Milano",
+   "endereco": "via Cherubini, 3 – 20145 Milano",
+   "lat": 45.466927,
+   "lon": 9.169146,
+   "verificacao": "em_verificacao",
+   "servico_limitado": true,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+393515173536"
+   ],
+   "telefone_principal": "+393515173536"
+  },
+  {
+   "id": "m331",
+   "tipo": "consulado_carreira",
+   "pais_iso": "MY",
+   "pais_nome_it": "Malaysia",
+   "cidade": "Milano",
+   "endereco": "Via Albricci, 9 – IV piano - 20122 Milano",
+   "lat": 45.461043,
+   "lon": 9.190336,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+390266981839",
+    "+39023046521"
+   ],
+   "telefone_principal": "+390266981839"
+  },
+  {
+   "id": "m334",
+   "tipo": "consulado_honorario",
+   "pais_iso": "ML",
+   "pais_nome_it": "Mali",
+   "cidade": "Bari",
+   "endereco": "Via Japigia, 160 P.1° – 70126 Bari",
+   "lat": 41.114131,
+   "lon": 16.896021,
+   "verificacao": "verificado",
+   "servico_limitado": true,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+390808406332"
+   ],
+   "telefone_principal": "+390808406332"
+  },
+  {
+   "id": "m341",
+   "tipo": "consulado_honorario",
+   "pais_iso": "MT",
+   "pais_nome_it": "Malta",
+   "cidade": "Milano",
+   "endereco": "Via Cesare Battisti, 15 - 20122 Milano",
+   "lat": 45.462981,
+   "lon": 9.200239,
+   "verificacao": "verificado",
+   "servico_limitado": true,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+390255016526"
+   ],
+   "telefone_principal": "+390255016526"
+  },
+  {
+   "id": "m346",
+   "tipo": "consulado_carreira",
+   "pais_iso": "MA",
+   "pais_nome_it": "Marocco",
+   "cidade": "Milano",
+   "endereco": "Via Adele Martignoni, 10 - 20124 Milano",
+   "lat": 45.492725,
+   "lon": 9.196534,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+390266806919",
+    "+390266825086"
+   ],
+   "telefone_principal": "+390266806919"
+  },
+  {
+   "id": "m351",
+   "tipo": "consulado_carreira",
+   "pais_iso": "MA",
+   "pais_nome_it": "Marocco",
+   "cidade": "Verona",
+   "endereco": "Via Torricelli, 49 – 37136 Verona",
+   "lat": 45.412842,
+   "lon": 10.953347,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+390458620858"
+   ],
+   "telefone_principal": "+390458620858"
+  },
+  {
+   "id": "m357",
+   "tipo": "consulado_honorario",
+   "pais_iso": "MX",
+   "pais_nome_it": "Messico",
+   "cidade": "Bari",
+   "endereco": "Largo Nitti Valentini, 3 70100 Bari",
+   "lat": 41.124919,
+   "lon": 16.862863,
+   "verificacao": "verificado",
+   "servico_limitado": true,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+390805522485"
+   ],
+   "telefone_principal": "+390805522485"
+  },
+  {
+   "id": "m366",
+   "tipo": "consulado_honorario",
+   "pais_iso": "MX",
+   "pais_nome_it": "Messico",
+   "cidade": "Trieste",
+   "endereco": "Piazza Tommaseo, 4 int.15 – 34121 Trieste",
+   "lat": 45.652692,
+   "lon": 13.773532,
+   "verificacao": "em_verificacao",
+   "servico_limitado": true,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [],
+   "telefone_principal": null
+  },
+  {
+   "id": "m368",
+   "tipo": "consulado_carreira",
+   "pais_iso": "MD",
+   "pais_nome_it": "Moldova",
+   "cidade": "Milano",
+   "endereco": "Via Lorenteggio, 270/A - 20152 Milano",
+   "lat": 45.468868,
+   "lon": 9.170402,
+   "verificacao": "em_verificacao",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [],
+   "telefone_principal": null
+  },
+  {
+   "id": "m371",
+   "tipo": "consulado_honorario",
+   "pais_iso": "MD",
+   "pais_nome_it": "Moldova",
+   "cidade": "Bari",
+   "endereco": "Via Cacudi, 40 - 70132 Bari",
+   "lat": 41.126604,
+   "lon": 16.789299,
+   "verificacao": "verificado",
+   "servico_limitado": true,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [],
+   "telefone_principal": null
+  },
+  {
+   "id": "m377",
+   "tipo": "consulado_honorario",
+   "pais_iso": "MC",
+   "pais_nome_it": "Monaco",
+   "cidade": "Bari",
+   "endereco": "Via Arcivescovo Vaccaro, 45 - 70121 Bari",
+   "lat": 41.120293,
+   "lon": 16.884258,
+   "verificacao": "verificado",
+   "servico_limitado": true,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+390805227572"
+   ],
+   "telefone_principal": "+390805227572"
+  },
+  {
+   "id": "m381",
+   "tipo": "consulado_honorario",
+   "pais_iso": "MC",
+   "pais_nome_it": "Monaco",
+   "cidade": "Milano",
+   "endereco": "Via degli Olivetani, 8 - 20123 Milano",
+   "lat": 45.466084,
+   "lon": 9.166752,
+   "verificacao": "em_verificacao",
+   "servico_limitado": true,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+390248012038"
+   ],
+   "telefone_principal": "+390248012038"
+  },
+  {
+   "id": "m387",
+   "tipo": "consulado_honorario",
+   "pais_iso": "MN",
+   "pais_nome_it": "Mongolia",
+   "cidade": "Prato",
+   "endereco": null,
+   "lat": 43.881519,
+   "lon": 11.096915,
+   "verificacao": "em_verificacao",
+   "servico_limitado": true,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+390574606136"
+   ],
+   "telefone_principal": "+390574606136"
+  },
+  {
+   "id": "m388",
+   "tipo": "consulado_honorario",
+   "pais_iso": "ME",
+   "pais_nome_it": "Montenegro",
+   "cidade": "Bari",
+   "endereco": "via Abate Gimma, n.189 V° piano – 70122 Bari",
+   "lat": 41.124481,
+   "lon": 16.864557,
+   "verificacao": "verificado",
+   "servico_limitado": true,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+390805240944"
+   ],
+   "telefone_principal": "+390805240944"
+  },
+  {
+   "id": "m393",
+   "tipo": "consulado_honorario",
+   "pais_iso": "NA",
+   "pais_nome_it": "Namibia",
+   "cidade": "Milano",
+   "endereco": "Via Privata Monte Altissimo, 1 - 20156 Milano",
+   "lat": 45.501466,
+   "lon": 9.141415,
+   "verificacao": "verificado",
+   "servico_limitado": true,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+3902804041"
+   ],
+   "telefone_principal": "+3902804041"
+  },
+  {
+   "id": "m396",
+   "tipo": "consulado_honorario",
+   "pais_iso": "NI",
+   "pais_nome_it": "Nicaragua",
+   "cidade": "Milano",
+   "endereco": "Viale Monte Nero, 33 - 20135 Milano",
+   "lat": 45.464377,
+   "lon": 9.196762,
+   "verificacao": "em_verificacao",
+   "servico_limitado": true,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+390270006978"
+   ],
+   "telefone_principal": "+390270006978"
+  },
+  {
+   "id": "m399",
+   "tipo": "consulado_honorario",
+   "pais_iso": "NO",
+   "pais_nome_it": "Norvegia",
+   "cidade": "Milano",
+   "endereco": "via Cappuccini, 2 - 20122 Milano",
+   "lat": 45.470174,
+   "lon": 9.201889,
+   "verificacao": "verificado",
+   "servico_limitado": true,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+3902874234"
+   ],
+   "telefone_principal": "+3902874234"
+  },
+  {
+   "id": "m401",
+   "tipo": "consulado_honorario",
+   "pais_iso": "NO",
+   "pais_nome_it": "Norvegia",
+   "cidade": "Bari",
+   "endereco": "Via Beata Elia di San Clemente, 225 - 70122 Bari",
+   "lat": 41.119193,
+   "lon": 16.865641,
+   "verificacao": "verificado",
+   "servico_limitado": true,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+390805232466",
+    "+390805232867"
+   ],
+   "telefone_principal": "+390805232466"
+  },
+  {
+   "id": "m409",
+   "tipo": "consulado_carreira",
+   "pais_iso": "NZ",
+   "pais_nome_it": "Nuova Zelanda",
+   "cidade": "Milano",
+   "endereco": "Via Terraggio, 17 - 20123 Milano",
+   "lat": 45.464942,
+   "lon": 9.175662,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+390272170001"
+   ],
+   "telefone_principal": "+390272170001"
+  },
+  {
+   "id": "m412",
+   "tipo": "consulado_carreira",
+   "pais_iso": "NL",
+   "pais_nome_it": "Paesi Bassi",
+   "cidade": "Milano",
+   "endereco": "Via Turati, n.27 – 20121 Milano",
+   "lat": 45.464631,
+   "lon": 9.205179,
+   "verificacao": "em_verificacao",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+39024855841",
+    "+390248558420",
+    "+390248558423"
+   ],
+   "telefone_principal": "+39024855841"
+  },
+  {
+   "id": "m414",
+   "tipo": "consulado_honorario",
+   "pais_iso": "NL",
+   "pais_nome_it": "Paesi Bassi",
+   "cidade": "Bari",
+   "endereco": "Viale Ennio Quinto, 2/I - 70124 Bari",
+   "lat": 41.116205,
+   "lon": 16.86284,
+   "verificacao": "verificado",
+   "servico_limitado": true,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+390805569222"
+   ],
+   "telefone_principal": "+390805569222"
+  },
+  {
+   "id": "m424",
+   "tipo": "consulado_carreira",
+   "pais_iso": "PK",
+   "pais_nome_it": "Pakistan",
+   "cidade": "Milano",
+   "endereco": "Via Gadames, 123 - 20151 Milano",
+   "lat": 45.501006,
+   "lon": 9.165235,
+   "verificacao": "em_verificacao",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+390266703271",
+    "+390266715841"
+   ],
+   "telefone_principal": "+390266703271"
+  },
+  {
+   "id": "m430",
+   "tipo": "consulado_honorario",
+   "pais_iso": "PA",
+   "pais_nome_it": "Panama",
+   "cidade": "Milano",
+   "endereco": "Via Boschetti, 1 – 20121 Milano",
+   "lat": 45.470153,
+   "lon": 9.200091,
+   "verificacao": "verificado",
+   "servico_limitado": true,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [],
+   "telefone_principal": null
+  },
+  {
+   "id": "m433",
+   "tipo": "consulado_carreira",
+   "pais_iso": "PE",
+   "pais_nome_it": "Peru'",
+   "cidade": "Firenze",
+   "endereco": "Via de’ Bardi, 28/30 - 50125 Firenze",
+   "lat": 43.765868,
+   "lon": 11.256661,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+390555047099"
+   ],
+   "telefone_principal": "+390555047099"
+  },
+  {
+   "id": "m434",
+   "tipo": "consulado_carreira",
+   "pais_iso": "PE",
+   "pais_nome_it": "Peru'",
+   "cidade": "Genova",
+   "endereco": "Piazza della Vittoria, 15 - 16121 Genova",
+   "lat": 44.402182,
+   "lon": 8.943765,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+39010589952",
+    "+390105955569"
+   ],
+   "telefone_principal": "+39010589952"
+  },
+  {
+   "id": "m435",
+   "tipo": "consulado_carreira",
+   "pais_iso": "PE",
+   "pais_nome_it": "Peru'",
+   "cidade": "Milano",
+   "endereco": "Via Fabio Filzi, 23 - 20124 Milano",
+   "lat": 45.483933,
+   "lon": 9.199772,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+3983557550"
+   ],
+   "telefone_principal": "+3983557550"
+  },
+  {
+   "id": "m436",
+   "tipo": "consulado_carreira",
+   "pais_iso": "PE",
+   "pais_nome_it": "Peru'",
+   "cidade": "Roma",
+   "endereco": "Via Illiria, 18 – Scala F, Int. 2-3 - 10183 Roma",
+   "lat": 41.882099,
+   "lon": 12.503133,
+   "verificacao": "em_verificacao",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+39068841442"
+   ],
+   "telefone_principal": "+39068841442"
+  },
+  {
+   "id": "m441",
+   "tipo": "consulado_carreira",
+   "pais_iso": "PL",
+   "pais_nome_it": "Polonia",
+   "cidade": "Milano",
+   "endereco": "Via Monte Rosa, 6 - 20149 Milano",
+   "lat": 45.471463,
+   "lon": 9.15433,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+390248018978",
+    "+390248019084"
+   ],
+   "telefone_principal": "+390248018978"
+  },
+  {
+   "id": "m442",
+   "tipo": "consulado_honorario",
+   "pais_iso": "PL",
+   "pais_nome_it": "Polonia",
+   "cidade": "Ancona",
+   "endereco": "Via Montebello, 58 – 60121 Ancona",
+   "lat": 43.615805,
+   "lon": 13.513604,
+   "verificacao": "verificado",
+   "servico_limitado": true,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+3907155240",
+    "+393481204886"
+   ],
+   "telefone_principal": "+3907155240"
+  },
+  {
+   "id": "m451",
+   "tipo": "consulado_honorario",
+   "pais_iso": "PT",
+   "pais_nome_it": "Portogallo",
+   "cidade": "Bari",
+   "endereco": "Via Niccolò dall'Arca, 19 - 70121 Bari",
+   "lat": 41.119389,
+   "lon": 16.870723,
+   "verificacao": "em_verificacao",
+   "servico_limitado": true,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+390805211011"
+   ],
+   "telefone_principal": "+390805211011"
+  },
+  {
+   "id": "m454",
+   "tipo": "consulado_honorario",
+   "pais_iso": "PT",
+   "pais_nome_it": "Portogallo",
+   "cidade": "Milano",
+   "endereco": "Via Francesco Albani, 21 - 20149 Milano",
+   "lat": 45.479645,
+   "lon": 9.147598,
+   "verificacao": "verificado",
+   "servico_limitado": true,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+39024675"
+   ],
+   "telefone_principal": "+39024675"
+  },
+  {
+   "id": "m460",
+   "tipo": "consulado_carreira",
+   "pais_iso": "QA",
+   "pais_nome_it": "Qatar",
+   "cidade": "Milano",
+   "endereco": "Via Monte di Pietà, 24 – 1°, 2° piano – 20121 Milano",
+   "lat": 45.47007,
+   "lon": 9.191786,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+390272105525"
+   ],
+   "telefone_principal": "+390272105525"
+  },
+  {
+   "id": "m461",
+   "tipo": "consulado_carreira",
+   "pais_iso": "RO",
+   "pais_nome_it": "Romania",
+   "cidade": "Bari",
+   "endereco": "Via Bruno Zaccaro, 17/19 - 70126 Bari",
+   "lat": 41.090645,
+   "lon": 16.888979,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+390805461818"
+   ],
+   "telefone_principal": "+390805461818"
+  },
+  {
+   "id": "m463",
+   "tipo": "consulado_carreira",
+   "pais_iso": "RO",
+   "pais_nome_it": "Romania",
+   "cidade": "Milano",
+   "endereco": "Via Gignese, 2 - 20148 Milano",
+   "lat": 45.478199,
+   "lon": 9.140402,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+390240098088",
+    "+390240074018",
+    "+393661081444"
+   ],
+   "telefone_principal": "+390240098088"
+  },
+  {
+   "id": "m465",
+   "tipo": "consulado_carreira",
+   "pais_iso": "RO",
+   "pais_nome_it": "Romania",
+   "cidade": "Torino",
+   "endereco": "Via Ancona, 7 – 10152 Torino",
+   "lat": 45.079158,
+   "lon": 7.690659,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+390112495775",
+    "+390112495264",
+    "+393387568134"
+   ],
+   "telefone_principal": "+390112495775"
+  },
+  {
+   "id": "m484",
+   "tipo": "consulado_honorario",
+   "pais_iso": "SM",
+   "pais_nome_it": "San Marino",
+   "cidade": "Bari",
+   "endereco": "Corso Cavour, 143 - 70121 Bari",
+   "lat": 41.121662,
+   "lon": 16.87229,
+   "verificacao": "verificado",
+   "servico_limitado": true,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+390805244302"
+   ],
+   "telefone_principal": "+390805244302"
+  },
+  {
+   "id": "m489",
+   "tipo": "consulado_honorario",
+   "pais_iso": "SM",
+   "pais_nome_it": "San Marino",
+   "cidade": "Milano",
+   "endereco": "Via Santa Lucia, 6 - 20122 Milano",
+   "lat": 45.453087,
+   "lon": 9.189041,
+   "verificacao": "em_verificacao",
+   "servico_limitado": true,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+390258301172"
+   ],
+   "telefone_principal": "+390258301172"
+  },
+  {
+   "id": "m493",
+   "tipo": "consulado_carreira",
+   "pais_iso": "SN",
+   "pais_nome_it": "Senegal",
+   "cidade": "Milano",
+   "endereco": "Viale Certosa, 187 - 20151 Milano",
+   "lat": 45.497807,
+   "lon": 9.133961,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+390241540073"
+   ],
+   "telefone_principal": "+390241540073"
+  },
+  {
+   "id": "m496",
+   "tipo": "consulado_honorario",
+   "pais_iso": "SN",
+   "pais_nome_it": "Senegal",
+   "cidade": "Bari",
+   "endereco": "Via de Rossi 98- 70100 Bari",
+   "lat": 41.122735,
+   "lon": 16.865604,
+   "verificacao": "verificado",
+   "servico_limitado": true,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+390805739863"
+   ],
+   "telefone_principal": "+390805739863"
+  },
+  {
+   "id": "m500",
+   "tipo": "consulado_honorario",
+   "pais_iso": "SN",
+   "pais_nome_it": "Senegal",
+   "cidade": "Livorno",
+   "endereco": "Corso Amedeo, 61 - 57125 Livorno",
+   "lat": 43.545556,
+   "lon": 10.314282,
+   "verificacao": "verificado",
+   "servico_limitado": true,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [],
+   "telefone_principal": null
+  },
+  {
+   "id": "m502",
+   "tipo": "consulado_carreira",
+   "pais_iso": "RS",
+   "pais_nome_it": "Serbia",
+   "cidade": "Milano",
+   "endereco": "Via Pantano, 2 - 20122 Milano",
+   "lat": 45.460373,
+   "lon": 9.1909,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+390272095466"
+   ],
+   "telefone_principal": "+390272095466"
+  },
+  {
+   "id": "m507",
+   "tipo": "consulado_carreira",
+   "pais_iso": "SY",
+   "pais_nome_it": "Siria",
+   "cidade": "Roma",
+   "endereco": "via Bruxelles, 51 – 00198 Roma",
+   "lat": 41.923585,
+   "lon": 12.499459,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [],
+   "telefone_principal": null
+  },
+  {
+   "id": "m523",
+   "tipo": "consulado_carreira",
+   "pais_iso": "ES",
+   "pais_nome_it": "Spagna",
+   "cidade": "Milano",
+   "endereco": "Via Filippo Turati, 29 - 20121 Milano",
+   "lat": 45.472677,
+   "lon": 9.193004,
+   "verificacao": "em_verificacao",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+3902721400"
+   ],
+   "telefone_principal": "+3902721400"
+  },
+  {
+   "id": "m527",
+   "tipo": "consulado_honorario",
+   "pais_iso": "ES",
+   "pais_nome_it": "Spagna",
+   "cidade": "Bari",
+   "endereco": "Corso Vittorio Emanuele 179 - 70122 Bari",
+   "lat": 41.125874,
+   "lon": 16.864242,
+   "verificacao": "verificado",
+   "servico_limitado": true,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+393385274624"
+   ],
+   "telefone_principal": "+393385274624"
+  },
+  {
+   "id": "m544",
+   "tipo": "consulado_carreira",
+   "pais_iso": "US",
+   "pais_nome_it": "Stati Uniti D'America",
+   "cidade": "Firenze",
+   "endereco": "Via Lungarno A. Vespucci, 38 - 50123 Firenze",
+   "lat": 43.773857,
+   "lon": 11.24055,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+39055266951"
+   ],
+   "telefone_principal": "+39055266951"
+  },
+  {
+   "id": "m545",
+   "tipo": "consulado_carreira",
+   "pais_iso": "US",
+   "pais_nome_it": "Stati Uniti D'America",
+   "cidade": "Milano",
+   "endereco": "Via Principe Amedeo, 2/10 - 20121 Milano",
+   "lat": 45.475128,
+   "lon": 9.194141,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+3902290351"
+   ],
+   "telefone_principal": "+3902290351"
+  },
+  {
+   "id": "m546",
+   "tipo": "consulado_carreira",
+   "pais_iso": "US",
+   "pais_nome_it": "Stati Uniti D'America",
+   "cidade": "Napoli",
+   "endereco": "Piazza della Repubblica - 80122 Napoli",
+   "lat": 40.831149,
+   "lon": 14.225778,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+390815838111"
+   ],
+   "telefone_principal": "+390815838111"
+  },
+  {
+   "id": "m550",
+   "tipo": "consulado_honorario",
+   "pais_iso": "ZA",
+   "pais_nome_it": "Sud Africa",
+   "cidade": "Bari",
+   "endereco": "Via Beata Elia di San Clemente, 255 - 70122 Bari",
+   "lat": 41.119194,
+   "lon": 16.865676,
+   "verificacao": "em_verificacao",
+   "servico_limitado": true,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+390805240388",
+    "+393356068145"
+   ],
+   "telefone_principal": "+390805240388"
+  },
+  {
+   "id": "m557",
+   "tipo": "consulado_honorario",
+   "pais_iso": "SE",
+   "pais_nome_it": "Svezia",
+   "cidade": "Milano",
+   "endereco": "Via Agnello, 8 - 20121 Milano",
+   "lat": 45.465417,
+   "lon": 9.193281,
+   "verificacao": "em_verificacao",
+   "servico_limitado": true,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+390286915266"
+   ],
+   "telefone_principal": "+390286915266"
+  },
+  {
+   "id": "m559",
+   "tipo": "consulado_honorario",
+   "pais_iso": "SE",
+   "pais_nome_it": "Svezia",
+   "cidade": "Anacapri (Na)",
+   "endereco": "Villa San Michele, Viale Axel Munthe, 32 - 80071 Anacapri (NA)",
+   "lat": 40.557124,
+   "lon": 14.224934,
+   "verificacao": "em_verificacao",
+   "servico_limitado": true,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+390818371401"
+   ],
+   "telefone_principal": "+390818371401"
+  },
+  {
+   "id": "m560",
+   "tipo": "consulado_honorario",
+   "pais_iso": "SE",
+   "pais_nome_it": "Svezia",
+   "cidade": "Bari",
+   "endereco": "Via Andrea da Bari, 128 - 70121 Bari",
+   "lat": 41.121518,
+   "lon": 16.869093,
+   "verificacao": "verificado",
+   "servico_limitado": true,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+393453801306"
+   ],
+   "telefone_principal": "+393453801306"
+  },
+  {
+   "id": "m570",
+   "tipo": "consulado_carreira",
+   "pais_iso": "CH",
+   "pais_nome_it": "Svizzera",
+   "cidade": "Milano",
+   "endereco": "Via Palestro, 2 - 20121 Milano",
+   "lat": 45.47277,
+   "lon": 9.196522,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+39027779161"
+   ],
+   "telefone_principal": "+39027779161"
+  },
+  {
+   "id": "m571",
+   "tipo": "consulado_honorario",
+   "pais_iso": "CH",
+   "pais_nome_it": "Svizzera",
+   "cidade": "Bari",
+   "endereco": "Piazza Luigi di Savoia, 41/a – 70121 Bari",
+   "lat": 41.118499,
+   "lon": 16.874478,
+   "verificacao": "verificado",
+   "servico_limitado": true,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+390805249697"
+   ],
+   "telefone_principal": "+390805249697"
+  },
+  {
+   "id": "m582",
+   "tipo": "consulado_honorario",
+   "pais_iso": "TH",
+   "pais_nome_it": "Thailandia",
+   "cidade": "Genova",
+   "endereco": "Via alla Porta degli Archi, 10/5D - 16121 Genova",
+   "lat": 44.404557,
+   "lon": 8.941735,
+   "verificacao": "em_verificacao",
+   "servico_limitado": true,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+390100984416"
+   ],
+   "telefone_principal": "+390100984416"
+  },
+  {
+   "id": "m583",
+   "tipo": "consulado_honorario",
+   "pais_iso": "TH",
+   "pais_nome_it": "Thailandia",
+   "cidade": "Milano",
+   "endereco": "Viale Berengario, 15 - 20149 Milano",
+   "lat": 45.475956,
+   "lon": 9.15112,
+   "verificacao": "verificado",
+   "servico_limitado": true,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+39024988439"
+   ],
+   "telefone_principal": "+39024988439"
+  },
+  {
+   "id": "m587",
+   "tipo": "consulado_carreira",
+   "pais_iso": "TN",
+   "pais_nome_it": "Tunisia",
+   "cidade": "Milano",
+   "endereco": "Via Marche, 37 - 20125 Milano",
+   "lat": 45.495135,
+   "lon": 9.195226,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+390254100500",
+    "+390254100475"
+   ],
+   "telefone_principal": "+390254100500"
+  },
+  {
+   "id": "m597",
+   "tipo": "consulado_carreira",
+   "pais_iso": "TR",
+   "pais_nome_it": "Turchia",
+   "cidade": "Milano",
+   "endereco": "Via Antonio Canova, 36 – 20145 Milano",
+   "lat": 45.477201,
+   "lon": 9.168997,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+390231836800"
+   ],
+   "telefone_principal": "+390231836800"
+  },
+  {
+   "id": "m599",
+   "tipo": "consulado_honorario",
+   "pais_iso": "TR",
+   "pais_nome_it": "Turchia",
+   "cidade": "Bari",
+   "endereco": "Via Abate Gimma, 148 - 70122 Bari",
+   "lat": 41.124351,
+   "lon": 16.865512,
+   "verificacao": "verificado",
+   "servico_limitado": true,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [],
+   "telefone_principal": null
+  },
+  {
+   "id": "m601",
+   "tipo": "consulado_honorario",
+   "pais_iso": "TR",
+   "pais_nome_it": "Turchia",
+   "cidade": "Ravenna",
+   "endereco": "Viale Trieste, 90/a – IV piano - 48122 Ravenna",
+   "lat": 44.422413,
+   "lon": 12.215116,
+   "verificacao": "em_verificacao",
+   "servico_limitado": true,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+390544422288"
+   ],
+   "telefone_principal": "+390544422288"
+  },
+  {
+   "id": "m603",
+   "tipo": "consulado_honorario",
+   "pais_iso": "TR",
+   "pais_nome_it": "Turchia",
+   "cidade": "Trieste",
+   "endereco": "Piazza Unità d'Italia, 7 - 34121 Trieste",
+   "lat": 45.650043,
+   "lon": 13.768566,
+   "verificacao": "verificado",
+   "servico_limitado": true,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+390406702711"
+   ],
+   "telefone_principal": "+390406702711"
+  },
+  {
+   "id": "m605",
+   "tipo": "consulado_carreira",
+   "pais_iso": "UA",
+   "pais_nome_it": "Ucraina",
+   "cidade": "Milano",
+   "endereco": "Via Ludovico di Breme, 11 - 20156 Milano",
+   "lat": 45.496705,
+   "lon": 9.139135,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+390286995789",
+    "+390286998814"
+   ],
+   "telefone_principal": "+390286995789"
+  },
+  {
+   "id": "m610",
+   "tipo": "consulado_carreira",
+   "pais_iso": "HU",
+   "pais_nome_it": "Ungheria",
+   "cidade": "Milano",
+   "endereco": "Via Fieno, 3 IV piano - 20123 Milano",
+   "lat": 45.459834,
+   "lon": 9.187035,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+39024984731",
+    "+390248008462"
+   ],
+   "telefone_principal": "+39024984731"
+  },
+  {
+   "id": "m618",
+   "tipo": "consulado_carreira",
+   "pais_iso": "UY",
+   "pais_nome_it": "Uruguay",
+   "cidade": "Milano",
+   "endereco": "Piazza Armando Diaz, 6 - 20123 Milano",
+   "lat": 45.46222,
+   "lon": 9.189403,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+39028056786"
+   ],
+   "telefone_principal": "+39028056786"
+  },
+  {
+   "id": "m627",
+   "tipo": "consulado_carreira",
+   "pais_iso": "VE",
+   "pais_nome_it": "Venezuela",
+   "cidade": "Milano",
+   "endereco": "Corso Europa, 5 - 20122 Milano",
+   "lat": 45.46411,
+   "lon": 9.1957,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+390276006293"
+   ],
+   "telefone_principal": "+390276006293"
+  },
+  {
+   "id": "m629",
+   "tipo": "consulado_honorario",
+   "pais_iso": "VN",
+   "pais_nome_it": "Vietnam",
+   "cidade": "Torino",
+   "endereco": "Via Federico Campana, 24 - 10125 Torino",
+   "lat": 45.054268,
+   "lon": 7.681254,
+   "verificacao": "verificado",
+   "servico_limitado": true,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+39011655166",
+    "+390116686336"
+   ],
+   "telefone_principal": "+39011655166"
+  },
+  {
+   "id": "m635",
+   "tipo": "embaixada",
+   "pais_iso": "AL",
+   "pais_nome_it": "Albania",
+   "cidade": "Roma",
+   "endereco": "Via Asmara, 5 - 00199 Roma",
+   "lat": 41.925342,
+   "lon": 12.521436,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+390686224111"
+   ],
+   "telefone_principal": "+390686224111"
+  },
+  {
+   "id": "m636",
+   "tipo": "embaixada",
+   "pais_iso": "DZ",
+   "pais_nome_it": "Algeria",
+   "cidade": "Roma",
+   "endereco": "Via Bartolomeo Eustachio, 12 - 00161 Roma",
+   "lat": 41.912481,
+   "lon": 12.509646,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+390644202533",
+    "+390644202546",
+    "+390644236843"
+   ],
+   "telefone_principal": "+390644202533"
+  },
+  {
+   "id": "m637",
+   "tipo": "embaixada",
+   "pais_iso": "AO",
+   "pais_nome_it": "Angola",
+   "cidade": "Roma",
+   "endereco": "Via Druso, 39 - 00184 Roma",
+   "lat": 41.881505,
+   "lon": 12.497868,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+39067726951",
+    "+3906772695260",
+    "+3906772695201"
+   ],
+   "telefone_principal": "+39067726951"
+  },
+  {
+   "id": "m638",
+   "tipo": "embaixada",
+   "pais_iso": "SA",
+   "pais_nome_it": "Arabia Saudita",
+   "cidade": "Roma",
+   "endereco": "Via G.B. Pergolesi, 9 - 00198 Roma",
+   "lat": 41.916904,
+   "lon": 12.492371,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+3906844851"
+   ],
+   "telefone_principal": "+3906844851"
+  },
+  {
+   "id": "m639",
+   "tipo": "embaixada",
+   "pais_iso": "AR",
+   "pais_nome_it": "Argentina",
+   "cidade": "Roma",
+   "endereco": "Piazza dell'Esquilino, 2 - 00185 Roma",
+   "lat": 41.898847,
+   "lon": 12.497147,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+390648073300"
+   ],
+   "telefone_principal": "+390648073300"
+  },
+  {
+   "id": "m640",
+   "tipo": "embaixada",
+   "pais_iso": "AM",
+   "pais_nome_it": "Armenia",
+   "cidade": "Roma",
+   "endereco": "Lungotevere dei Mellini, 17 - 00193 Roma",
+   "lat": 41.904939,
+   "lon": 12.495218,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+39063296638"
+   ],
+   "telefone_principal": "+39063296638"
+  },
+  {
+   "id": "m641",
+   "tipo": "embaixada",
+   "pais_iso": "AU",
+   "pais_nome_it": "Australia",
+   "cidade": "Roma",
+   "endereco": "Via A. Bosio, 5 - 00161 Roma",
+   "lat": 41.916808,
+   "lon": 12.513938,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+3906852721"
+   ],
+   "telefone_principal": "+3906852721"
+  },
+  {
+   "id": "m642",
+   "tipo": "embaixada",
+   "pais_iso": "AT",
+   "pais_nome_it": "Austria",
+   "cidade": "Roma",
+   "endereco": "Via G. Pergolesi, 3 - 00198 Roma",
+   "lat": 41.917177,
+   "lon": 12.492645,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+39068440141"
+   ],
+   "telefone_principal": "+39068440141"
+  },
+  {
+   "id": "m643",
+   "tipo": "embaixada",
+   "pais_iso": "AZ",
+   "pais_nome_it": "Azerbaigian",
+   "cidade": "Roma",
+   "endereco": "Via Giovanni Battista De Rossi, 27 - 00161 Roma",
+   "lat": 41.916587,
+   "lon": 12.516908,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+390685305557"
+   ],
+   "telefone_principal": "+390685305557"
+  },
+  {
+   "id": "m644",
+   "tipo": "embaixada",
+   "pais_iso": "BH",
+   "pais_nome_it": "Bahrain",
+   "cidade": "Roma",
+   "endereco": "Viale di Villa Massimo, 47 - 00161 Roma",
+   "lat": 41.915796,
+   "lon": 12.517089,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+390645499686"
+   ],
+   "telefone_principal": "+390645499686"
+  },
+  {
+   "id": "m645",
+   "tipo": "embaixada",
+   "pais_iso": "BD",
+   "pais_nome_it": "Bangladesh",
+   "cidade": "Roma",
+   "endereco": "VIA DELL'ANTARTIDE, 5,7,9 - 00144 Roma",
+   "lat": 41.825412,
+   "lon": 12.463896,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+39068083595",
+    "+39068078541"
+   ],
+   "telefone_principal": "+39068083595"
+  },
+  {
+   "id": "m646",
+   "tipo": "embaixada",
+   "pais_iso": "BY",
+   "pais_nome_it": "Belarus",
+   "cidade": "Roma",
+   "endereco": "Via delle Alpi Apuane, 16 - 00141 Roma",
+   "lat": 41.93663,
+   "lon": 12.536818,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+39068208141"
+   ],
+   "telefone_principal": "+39068208141"
+  },
+  {
+   "id": "m647",
+   "tipo": "embaixada",
+   "pais_iso": "BE",
+   "pais_nome_it": "Belgio",
+   "cidade": "Roma",
+   "endereco": "Via Giuseppe de Notaris, 6 - 00197 Roma",
+   "lat": 41.919706,
+   "lon": 12.481246,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+39063609511"
+   ],
+   "telefone_principal": "+39063609511"
+  },
+  {
+   "id": "m648",
+   "tipo": "embaixada",
+   "pais_iso": "BO",
+   "pais_nome_it": "Bolivia",
+   "cidade": "Roma",
+   "endereco": "Via Civitavecchia, 1 - 00198 Roma",
+   "lat": 41.914481,
+   "lon": 12.502848,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+39068841001"
+   ],
+   "telefone_principal": "+39068841001"
+  },
+  {
+   "id": "m649",
+   "tipo": "embaixada",
+   "pais_iso": "BA",
+   "pais_nome_it": "Bosnia Ed Erzegovina",
+   "cidade": "Roma",
+   "endereco": "Piazzale Clodio, 12/III - 00195 Roma",
+   "lat": 41.916144,
+   "lon": 12.45508,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+390639742817"
+   ],
+   "telefone_principal": "+390639742817"
+  },
+  {
+   "id": "m650",
+   "tipo": "embaixada",
+   "pais_iso": "BR",
+   "pais_nome_it": "Brasile",
+   "cidade": "Roma",
+   "endereco": "Piazza Navona, 14 - 00186 Roma",
+   "lat": 41.898136,
+   "lon": 12.472781,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+3906683981"
+   ],
+   "telefone_principal": "+3906683981"
+  },
+  {
+   "id": "m651",
+   "tipo": "embaixada",
+   "pais_iso": "BG",
+   "pais_nome_it": "Bulgaria",
+   "cidade": "Roma",
+   "endereco": "Via P.P. Rubens, 21 - 00197 Roma",
+   "lat": 41.923809,
+   "lon": 12.475693,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+39063224643"
+   ],
+   "telefone_principal": "+39063224643"
+  },
+  {
+   "id": "m652",
+   "tipo": "embaixada",
+   "pais_iso": "BF",
+   "pais_nome_it": "Burkina Faso",
+   "cidade": "Roma",
+   "endereco": "Via Mosca, 52 - 00142 Roma",
+   "lat": 41.915551,
+   "lon": 12.449321,
+   "verificacao": "em_verificacao",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+390642010611"
+   ],
+   "telefone_principal": "+390642010611"
+  },
+  {
+   "id": "m653",
+   "tipo": "embaixada",
+   "pais_iso": "BI",
+   "pais_nome_it": "Burundi",
+   "cidade": "Roma",
+   "endereco": "Via Enrico Accinni, 63 Sc.B int.10 - 00195 Roma",
+   "lat": 41.91664,
+   "lon": 12.452714,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+390636381786"
+   ],
+   "telefone_principal": "+390636381786"
+  },
+  {
+   "id": "m654",
+   "tipo": "embaixada",
+   "pais_iso": "CV",
+   "pais_nome_it": "Cabo Verde",
+   "cidade": "Roma",
+   "endereco": "Via G. Carducci, 4, I° P - 00187 Roma",
+   "lat": 41.906515,
+   "lon": 12.494545,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+39064744678"
+   ],
+   "telefone_principal": "+39064744678"
+  },
+  {
+   "id": "m655",
+   "tipo": "embaixada",
+   "pais_iso": "CM",
+   "pais_nome_it": "Camerun",
+   "cidade": "Roma",
+   "endereco": "dal 1°.6.2012 tempor.te in Viale Regina Margherita, 42 - 00198 Roma",
+   "lat": 41.918519,
+   "lon": 12.499351,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+390644232313"
+   ],
+   "telefone_principal": "+390644232313"
+  },
+  {
+   "id": "m656",
+   "tipo": "embaixada",
+   "pais_iso": "CA",
+   "pais_nome_it": "Canada",
+   "cidade": "Roma",
+   "endereco": "Via Salaria, 243 - 00199 Roma",
+   "lat": 41.922284,
+   "lon": 12.501212,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+3906854441"
+   ],
+   "telefone_principal": "+3906854441"
+  },
+  {
+   "id": "m657",
+   "tipo": "embaixada",
+   "pais_iso": "CL",
+   "pais_nome_it": "Cile",
+   "cidade": "Roma",
+   "endereco": "Viale Liegi, 19/23 - 00198 Roma",
+   "lat": 41.921327,
+   "lon": 12.494792,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+3906844091"
+   ],
+   "telefone_principal": "+3906844091"
+  },
+  {
+   "id": "m658",
+   "tipo": "embaixada",
+   "pais_iso": "CN",
+   "pais_nome_it": "Cina",
+   "cidade": "Roma",
+   "endereco": "Via Bruxelles, 56 - 00198 Roma",
+   "lat": 41.922818,
+   "lon": 12.499549,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+390696524200"
+   ],
+   "telefone_principal": "+390696524200"
+  },
+  {
+   "id": "m659",
+   "tipo": "embaixada",
+   "pais_iso": "CY",
+   "pais_nome_it": "Cipro",
+   "cidade": "Roma",
+   "endereco": "Via Ludovisi, 35 sc.A int.10 - 00187 Roma",
+   "lat": 41.90713,
+   "lon": 12.488496,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+39068088365"
+   ],
+   "telefone_principal": "+39068088365"
+  },
+  {
+   "id": "m661",
+   "tipo": "embaixada",
+   "pais_iso": "CG",
+   "pais_nome_it": "Congo",
+   "cidade": "Roma",
+   "endereco": "Via Ombrone, 8/10 - 00198 Roma",
+   "lat": 41.917757,
+   "lon": 12.503308,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+39068417422"
+   ],
+   "telefone_principal": "+39068417422"
+  },
+  {
+   "id": "m663",
+   "tipo": "embaixada",
+   "pais_iso": "KR",
+   "pais_nome_it": "Corea",
+   "cidade": "Roma",
+   "endereco": "Via Piemonte, 54 - 00187 Roma",
+   "lat": 41.927727,
+   "lon": 12.485646,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+3906802461"
+   ],
+   "telefone_principal": "+3906802461"
+  },
+  {
+   "id": "m665",
+   "tipo": "embaixada",
+   "pais_iso": "CI",
+   "pais_nome_it": "Costa D'Avorio",
+   "cidade": "Roma",
+   "endereco": "Via Guglielmo Saliceto, 6-10 - 00161 Roma",
+   "lat": 41.911446,
+   "lon": 12.507558,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+390644231129",
+    "+390644260911"
+   ],
+   "telefone_principal": "+390644231129"
+  },
+  {
+   "id": "m666",
+   "tipo": "embaixada",
+   "pais_iso": "CR",
+   "pais_nome_it": "Costa Rica",
+   "cidade": "Roma",
+   "endereco": "Viale Parioli, 41, 2°p. int.6 - 00197 Roma",
+   "lat": 41.924183,
+   "lon": 12.489717,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+390684242853"
+   ],
+   "telefone_principal": "+390684242853"
+  },
+  {
+   "id": "m667",
+   "tipo": "embaixada",
+   "pais_iso": "HR",
+   "pais_nome_it": "Croazia",
+   "cidade": "Roma",
+   "endereco": "Via Virginio Orsini, 27 - 00192 Roma",
+   "lat": 41.945147,
+   "lon": 12.464387,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+390636307300",
+    "+390636307650"
+   ],
+   "telefone_principal": "+390636307300"
+  },
+  {
+   "id": "m668",
+   "tipo": "embaixada",
+   "pais_iso": "CU",
+   "pais_nome_it": "Cuba",
+   "cidade": "Roma",
+   "endereco": "Via Licinia, 7 - 00153 Roma",
+   "lat": 41.88197,
+   "lon": 12.484821,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+39065717241"
+   ],
+   "telefone_principal": "+39065717241"
+  },
+  {
+   "id": "m670",
+   "tipo": "embaixada",
+   "pais_iso": "EC",
+   "pais_nome_it": "Ecuador",
+   "cidade": "Roma",
+   "endereco": "Via Antonio Bertoloni, 8 - 00197 Roma",
+   "lat": 41.921372,
+   "lon": 12.491502,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+390689672820"
+   ],
+   "telefone_principal": "+390689672820"
+  },
+  {
+   "id": "m671",
+   "tipo": "embaixada",
+   "pais_iso": "EG",
+   "pais_nome_it": "Egitto",
+   "cidade": "Roma",
+   "endereco": "Villa Savoia - Via Salaria, 267 - 00199 Roma",
+   "lat": 41.926233,
+   "lon": 12.502363,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+390684401982"
+   ],
+   "telefone_principal": "+390684401982"
+  },
+  {
+   "id": "m672",
+   "tipo": "embaixada",
+   "pais_iso": "SV",
+   "pais_nome_it": "El Salvador",
+   "cidade": "Roma",
+   "endereco": "Piazza Euclide, 31 - 00197 Roma",
+   "lat": 41.926704,
+   "lon": 12.489577,
+   "verificacao": "em_verificacao",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+39068076605"
+   ],
+   "telefone_principal": "+39068076605"
+  },
+  {
+   "id": "m673",
+   "tipo": "embaixada",
+   "pais_iso": "AE",
+   "pais_nome_it": "Emirati Arabi Uniti",
+   "cidade": "Roma",
+   "endereco": "Piazza della Croce Rossa, 3 - 00161 Roma",
+   "lat": 41.941752,
+   "lon": 12.447376,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+390636306100"
+   ],
+   "telefone_principal": "+390636306100"
+  },
+  {
+   "id": "m674",
+   "tipo": "embaixada",
+   "pais_iso": "ER",
+   "pais_nome_it": "Eritrea",
+   "cidade": "Roma",
+   "endereco": "Via Savoia, 80 - 00198 Roma",
+   "lat": 41.908525,
+   "lon": 12.49449,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+390642741293"
+   ],
+   "telefone_principal": "+390642741293"
+  },
+  {
+   "id": "m675",
+   "tipo": "embaixada",
+   "pais_iso": "EE",
+   "pais_nome_it": "Estonia",
+   "cidade": "Roma",
+   "endereco": "via Clitunno, 34-36 - 00198 Roma",
+   "lat": 41.91862,
+   "lon": 12.504885,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+390684407510"
+   ],
+   "telefone_principal": "+390684407510"
+  },
+  {
+   "id": "m676",
+   "tipo": "embaixada",
+   "pais_iso": "ET",
+   "pais_nome_it": "Etiopia",
+   "cidade": "Roma",
+   "endereco": "Via A. Vesalio, 16 - 00161 Roma",
+   "lat": 41.911532,
+   "lon": 12.506785,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+3906441616307"
+   ],
+   "telefone_principal": "+3906441616307"
+  },
+  {
+   "id": "m677",
+   "tipo": "embaixada",
+   "pais_iso": "PH",
+   "pais_nome_it": "Filippine",
+   "cidade": "Roma",
+   "endereco": "Via Aurelia, 290a - 00165 Roma",
+   "lat": 41.898287,
+   "lon": 12.437824,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+390639746622"
+   ],
+   "telefone_principal": "+390639746622"
+  },
+  {
+   "id": "m678",
+   "tipo": "embaixada",
+   "pais_iso": "FI",
+   "pais_nome_it": "Finlandia",
+   "cidade": "Roma",
+   "endereco": "Via Lisbona, 3 - 00198 Roma",
+   "lat": 41.924776,
+   "lon": 12.496253,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+3906852231"
+   ],
+   "telefone_principal": "+3906852231"
+  },
+  {
+   "id": "m679",
+   "tipo": "embaixada",
+   "pais_iso": "FR",
+   "pais_nome_it": "Francia",
+   "cidade": "Roma",
+   "endereco": "Piazza Farnese, 67 - 00186 Roma",
+   "lat": 41.894829,
+   "lon": 12.470828,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+3906686011"
+   ],
+   "telefone_principal": "+3906686011"
+  },
+  {
+   "id": "m680",
+   "tipo": "embaixada",
+   "pais_iso": "GA",
+   "pais_nome_it": "Gabon",
+   "cidade": "Roma",
+   "endereco": "Lungotevere Michelangelo, 9 - 00192 Roma",
+   "lat": 41.922153,
+   "lon": 12.512651,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+390652729121"
+   ],
+   "telefone_principal": "+390652729121"
+  },
+  {
+   "id": "m681",
+   "tipo": "embaixada",
+   "pais_iso": "GE",
+   "pais_nome_it": "Georgia",
+   "cidade": "Roma",
+   "endereco": "Via Del Plebiscito, 102 - 00186 Roma",
+   "lat": 41.896505,
+   "lon": 12.480457,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+390645540280"
+   ],
+   "telefone_principal": "+390645540280"
+  },
+  {
+   "id": "m682",
+   "tipo": "embaixada",
+   "pais_iso": "DE",
+   "pais_nome_it": "Germania",
+   "cidade": "Roma",
+   "endereco": "Via San Martino della Battaglia, 4 - 00185 Roma",
+   "lat": 41.905071,
+   "lon": 12.503365,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+3906492131"
+   ],
+   "telefone_principal": "+3906492131"
+  },
+  {
+   "id": "m683",
+   "tipo": "embaixada",
+   "pais_iso": "GH",
+   "pais_nome_it": "Ghana",
+   "cidade": "Roma",
+   "endereco": "VIA OSTRIANA, 4 - 00199 Roma",
+   "lat": 41.930657,
+   "lon": 12.51185,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+390686217191",
+    "+390686219307"
+   ],
+   "telefone_principal": "+390686217191"
+  },
+  {
+   "id": "m684",
+   "tipo": "embaixada",
+   "pais_iso": "JP",
+   "pais_nome_it": "Giappone",
+   "cidade": "Roma",
+   "endereco": "Via Quintino Sella, 60 - 00187 Roma",
+   "lat": 41.908069,
+   "lon": 12.49481,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+3906487991"
+   ],
+   "telefone_principal": "+3906487991"
+  },
+  {
+   "id": "m685",
+   "tipo": "embaixada",
+   "pais_iso": "JO",
+   "pais_nome_it": "Giordania",
+   "cidade": "Roma",
+   "endereco": "Via Giuseppe Marchi, 1/b - 00161 Roma",
+   "lat": 41.919446,
+   "lon": 12.518713,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+390686205303"
+   ],
+   "telefone_principal": "+390686205303"
+  },
+  {
+   "id": "m686",
+   "tipo": "embaixada",
+   "pais_iso": "GB",
+   "pais_nome_it": "Gran Bretagna",
+   "cidade": "Roma",
+   "endereco": "Via XX Settembre, 80/a - 00187 Roma",
+   "lat": 41.908236,
+   "lon": 12.50125,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+390642200001"
+   ],
+   "telefone_principal": "+390642200001"
+  },
+  {
+   "id": "m687",
+   "tipo": "embaixada",
+   "pais_iso": "GR",
+   "pais_nome_it": "Grecia",
+   "cidade": "Roma",
+   "endereco": "Viale G. Rossini, 4 - 00198 Roma",
+   "lat": 41.919053,
+   "lon": 12.490833,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+39068537551"
+   ],
+   "telefone_principal": "+39068537551"
+  },
+  {
+   "id": "m689",
+   "tipo": "embaixada",
+   "pais_iso": "GN",
+   "pais_nome_it": "Guinea",
+   "cidade": "Roma",
+   "endereco": "Via Adelaide Ristori, 9/b-13 - 00197 Roma",
+   "lat": 41.929368,
+   "lon": 12.494387,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+39068078989"
+   ],
+   "telefone_principal": "+39068078989"
+  },
+  {
+   "id": "m690",
+   "tipo": "embaixada",
+   "pais_iso": "GQ",
+   "pais_nome_it": "Guinea Equatoriale",
+   "cidade": "Roma",
+   "endereco": "Via Bruxelles, 59/A - 00198 Roma",
+   "lat": 41.923239,
+   "lon": 12.50031,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+390638386205"
+   ],
+   "telefone_principal": "+390638386205"
+  },
+  {
+   "id": "m691",
+   "tipo": "embaixada",
+   "pais_iso": "HT",
+   "pais_nome_it": "Haiti",
+   "cidade": "Roma",
+   "endereco": "Via di Villa Patrizi, 7-7A - 00161 Roma",
+   "lat": 41.909323,
+   "lon": 12.50557,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+390644254106",
+    "+390644254107"
+   ],
+   "telefone_principal": "+390644254106"
+  },
+  {
+   "id": "m692",
+   "tipo": "embaixada",
+   "pais_iso": "HN",
+   "pais_nome_it": "Honduras",
+   "cidade": "Roma",
+   "endereco": "Via Emanuele Gianturco, 5ꢀ±ꢀint. 3 - 00196 Roma",
+   "lat": 41.914046,
+   "lon": 12.473852,
+   "verificacao": "em_verificacao",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+39063207236"
+   ],
+   "telefone_principal": "+39063207236"
+  },
+  {
+   "id": "m693",
+   "tipo": "embaixada",
+   "pais_iso": "IN",
+   "pais_nome_it": "India",
+   "cidade": "Roma",
+   "endereco": "Via Sicilia, 136-138 - 00187 Roma",
+   "lat": 41.902796,
+   "lon": 12.491584,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+39064884642"
+   ],
+   "telefone_principal": "+39064884642"
+  },
+  {
+   "id": "m694",
+   "tipo": "embaixada",
+   "pais_iso": "ID",
+   "pais_nome_it": "Indonesia",
+   "cidade": "Roma",
+   "endereco": "Via Campania, 55 - 00187 Roma",
+   "lat": 41.91039,
+   "lon": 12.493463,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+39064200911"
+   ],
+   "telefone_principal": "+39064200911"
+  },
+  {
+   "id": "m695",
+   "tipo": "embaixada",
+   "pais_iso": "IR",
+   "pais_nome_it": "Iran",
+   "cidade": "Roma",
+   "endereco": "Via Nomentana, 361/363 - 00162 Roma",
+   "lat": 41.924032,
+   "lon": 12.520079,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+390686328485"
+   ],
+   "telefone_principal": "+390686328485"
+  },
+  {
+   "id": "m696",
+   "tipo": "embaixada",
+   "pais_iso": "IQ",
+   "pais_nome_it": "Iraq",
+   "cidade": "Roma",
+   "endereco": "Via della Camilluccia, 355 - 00135 Roma",
+   "lat": 41.939705,
+   "lon": 12.443172,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+39063014508",
+    "+390635077281"
+   ],
+   "telefone_principal": "+39063014508"
+  },
+  {
+   "id": "m697",
+   "tipo": "embaixada",
+   "pais_iso": "IE",
+   "pais_nome_it": "Irlanda",
+   "cidade": "Roma",
+   "endereco": "(Villa Spada) Via Giacomo Medici, 1 - 00153 Roma",
+   "lat": 41.887704,
+   "lon": 12.464393,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+39065852381"
+   ],
+   "telefone_principal": "+39065852381"
+  },
+  {
+   "id": "m699",
+   "tipo": "embaixada",
+   "pais_iso": "IL",
+   "pais_nome_it": "Israele",
+   "cidade": "Roma",
+   "endereco": "Via M. Mercati, 14 - 00197 Roma",
+   "lat": 41.919549,
+   "lon": 12.484442,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+390636198500"
+   ],
+   "telefone_principal": "+390636198500"
+  },
+  {
+   "id": "m700",
+   "tipo": "embaixada",
+   "pais_iso": "KZ",
+   "pais_nome_it": "Kazakhstan",
+   "cidade": "Roma",
+   "endereco": "Via Cassia, 471 - 00189 Roma",
+   "lat": 41.956884,
+   "lon": 12.45538,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+390636301130"
+   ],
+   "telefone_principal": "+390636301130"
+  },
+  {
+   "id": "m701",
+   "tipo": "embaixada",
+   "pais_iso": "KE",
+   "pais_nome_it": "Kenya",
+   "cidade": "Roma",
+   "endereco": "Viale Luca Gaurico, 205 - 00143 Roma",
+   "lat": 41.824135,
+   "lon": 12.486148,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+39068082717",
+    "+39068082718",
+    "+390680660230",
+    "+390680691427"
+   ],
+   "telefone_principal": "+39068082717"
+  },
+  {
+   "id": "m702",
+   "tipo": "embaixada",
+   "pais_iso": "KG",
+   "pais_nome_it": "Kirghizistan",
+   "cidade": "Roma",
+   "endereco": "Via Clitunno, 2 - 00198 Roma",
+   "lat": 41.921692,
+   "lon": 12.501074,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+390633974666"
+   ],
+   "telefone_principal": "+390633974666"
+  },
+  {
+   "id": "m703",
+   "tipo": "embaixada",
+   "pais_iso": "XK",
+   "pais_nome_it": "Kosovo",
+   "cidade": "Roma",
+   "endereco": "Via Tolmino, 12 - 00198 Roma",
+   "lat": 41.91972,
+   "lon": 12.514324,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+390685356571"
+   ],
+   "telefone_principal": "+390685356571"
+  },
+  {
+   "id": "m704",
+   "tipo": "embaixada",
+   "pais_iso": "KW",
+   "pais_nome_it": "Kuwait",
+   "cidade": "Roma",
+   "endereco": "Via Archimede, 124 - 00197 Roma",
+   "lat": 41.925552,
+   "lon": 12.480185,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+39068078415"
+   ],
+   "telefone_principal": "+39068078415"
+  },
+  {
+   "id": "m705",
+   "tipo": "embaixada",
+   "pais_iso": "LS",
+   "pais_nome_it": "Lesotho",
+   "cidade": "Roma",
+   "endereco": "Via Serchio, 8 - 00198 Roma",
+   "lat": 41.918733,
+   "lon": 12.504674,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+39068542419",
+    "+39068542496"
+   ],
+   "telefone_principal": "+39068542419"
+  },
+  {
+   "id": "m706",
+   "tipo": "embaixada",
+   "pais_iso": "LV",
+   "pais_nome_it": "Lettonia",
+   "cidade": "Roma",
+   "endereco": "Via Giovanni Battista Martini, 13 - 00198 Roma",
+   "lat": 41.918726,
+   "lon": 12.493689,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+39068841227"
+   ],
+   "telefone_principal": "+39068841227"
+  },
+  {
+   "id": "m707",
+   "tipo": "embaixada",
+   "pais_iso": "LB",
+   "pais_nome_it": "Libano",
+   "cidade": "Roma",
+   "endereco": "Via Giacomo Carissimi, 38 - 00198 Roma",
+   "lat": 41.919283,
+   "lon": 12.491429,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+39068537211"
+   ],
+   "telefone_principal": "+39068537211"
+  },
+  {
+   "id": "m708",
+   "tipo": "embaixada",
+   "pais_iso": "LR",
+   "pais_nome_it": "Liberia",
+   "cidade": "Roma",
+   "endereco": "Piazza Medaglie d'Oro, 7 IIp.scAint.5 - 00136 Roma",
+   "lat": 41.923588,
+   "lon": 12.447708,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+390635453399"
+   ],
+   "telefone_principal": "+390635453399"
+  },
+  {
+   "id": "m709",
+   "tipo": "embaixada",
+   "pais_iso": "LY",
+   "pais_nome_it": "Libia",
+   "cidade": "Roma",
+   "endereco": "Via Nomentana, 365 - 00162 Roma",
+   "lat": 41.924444,
+   "lon": 12.519789,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+390686320951"
+   ],
+   "telefone_principal": "+390686320951"
+  },
+  {
+   "id": "m710",
+   "tipo": "embaixada",
+   "pais_iso": "LT",
+   "pais_nome_it": "Lituania",
+   "cidade": "Roma",
+   "endereco": "Palazzo Blumensthil - Via Vittoria Colonna, 1 - 00193 Roma",
+   "lat": 41.905175,
+   "lon": 12.473059,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+39068559052"
+   ],
+   "telefone_principal": "+39068559052"
+  },
+  {
+   "id": "m711",
+   "tipo": "embaixada",
+   "pais_iso": "LU",
+   "pais_nome_it": "Lussemburgo",
+   "cidade": "Roma",
+   "endereco": "Via S. Croce in Gerusalemme, 90 - 00185 Roma",
+   "lat": 41.891365,
+   "lon": 12.510499,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+390677201177"
+   ],
+   "telefone_principal": "+390677201177"
+  },
+  {
+   "id": "m712",
+   "tipo": "embaixada",
+   "pais_iso": "MK",
+   "pais_nome_it": "Macedonia Del Nord",
+   "cidade": "Roma",
+   "endereco": "Viale Bruxelles, 73-75 - 00198 Roma",
+   "lat": 41.922723,
+   "lon": 12.500956,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+390684241109"
+   ],
+   "telefone_principal": "+390684241109"
+  },
+  {
+   "id": "m714",
+   "tipo": "embaixada",
+   "pais_iso": "MY",
+   "pais_nome_it": "Malaysia",
+   "cidade": "Roma",
+   "endereco": "Via Cimone, 48 - 00141 Roma",
+   "lat": 41.917085,
+   "lon": 12.512052,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+39062418658"
+   ],
+   "telefone_principal": "+39062418658"
+  },
+  {
+   "id": "m715",
+   "tipo": "embaixada",
+   "pais_iso": "ML",
+   "pais_nome_it": "Mali",
+   "cidade": "Roma",
+   "endereco": "Via delle Cave Fiscali, 21 - 00141 Roma",
+   "lat": 41.945552,
+   "lon": 12.523946,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+390644254068"
+   ],
+   "telefone_principal": "+390644254068"
+  },
+  {
+   "id": "m716",
+   "tipo": "embaixada",
+   "pais_iso": "MT",
+   "pais_nome_it": "Malta",
+   "cidade": "Roma",
+   "endereco": "Lungotevere Marzio, 12 - 00186 Roma",
+   "lat": 41.903197,
+   "lon": 12.474046,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+390685960260"
+   ],
+   "telefone_principal": "+390685960260"
+  },
+  {
+   "id": "m717",
+   "tipo": "embaixada",
+   "pais_iso": "MA",
+   "pais_nome_it": "Marocco",
+   "cidade": "Roma",
+   "endereco": "Via Brenta, 12/16 - 00198 Roma",
+   "lat": 41.918262,
+   "lon": 12.502593,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+390685508001"
+   ],
+   "telefone_principal": "+390685508001"
+  },
+  {
+   "id": "m718",
+   "tipo": "embaixada",
+   "pais_iso": "MR",
+   "pais_nome_it": "Mauritania",
+   "cidade": "Roma",
+   "endereco": "via Brenta, 13 - 00198 Roma",
+   "lat": 41.923597,
+   "lon": 12.487476,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+390685351530"
+   ],
+   "telefone_principal": "+390685351530"
+  },
+  {
+   "id": "m720",
+   "tipo": "embaixada",
+   "pais_iso": "MD",
+   "pais_nome_it": "Moldova",
+   "cidade": "Roma",
+   "endereco": "Via Francesco Cherubini, 27 - 00135 Roma",
+   "lat": 41.945781,
+   "lon": 12.425719,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+390645683747"
+   ],
+   "telefone_principal": "+390645683747"
+  },
+  {
+   "id": "m721",
+   "tipo": "embaixada",
+   "pais_iso": "MC",
+   "pais_nome_it": "Monaco",
+   "cidade": "Roma",
+   "endereco": "via Antonio Stoppani, 34 - 00197 Roma",
+   "lat": 41.92414,
+   "lon": 12.487331,
+   "verificacao": "em_verificacao",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+39068083361"
+   ],
+   "telefone_principal": "+39068083361"
+  },
+  {
+   "id": "m722",
+   "tipo": "embaixada",
+   "pais_iso": "MN",
+   "pais_nome_it": "Mongolia",
+   "cidade": "Roma",
+   "endereco": "Via Vincenzo Bellini, 4 - 00198 Roma",
+   "lat": 41.920745,
+   "lon": 12.495386,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+39068540536"
+   ],
+   "telefone_principal": "+39068540536"
+  },
+  {
+   "id": "m723",
+   "tipo": "embaixada",
+   "pais_iso": "ME",
+   "pais_nome_it": "Montenegro",
+   "cidade": "Roma",
+   "endereco": "via Giovanni Paisiello, 27 - 00198 Roma",
+   "lat": 41.917591,
+   "lon": 12.493412,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+390688857745"
+   ],
+   "telefone_principal": "+390688857745"
+  },
+  {
+   "id": "m724",
+   "tipo": "embaixada",
+   "pais_iso": "MZ",
+   "pais_nome_it": "Mozambico",
+   "cidade": "Roma",
+   "endereco": "Via Filippo Corridoni, 14 - 00195 Roma",
+   "lat": 41.92089,
+   "lon": 12.460763,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+390637514675"
+   ],
+   "telefone_principal": "+390637514675"
+  },
+  {
+   "id": "m727",
+   "tipo": "embaixada",
+   "pais_iso": "NE",
+   "pais_nome_it": "Niger",
+   "cidade": "Roma",
+   "endereco": "VIA LEON PANCALDO, 14/26 - 00147 Roma",
+   "lat": 41.913474,
+   "lon": 12.4609,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+3906692165"
+   ],
+   "telefone_principal": "+3906692165"
+  },
+  {
+   "id": "m728",
+   "tipo": "embaixada",
+   "pais_iso": "NG",
+   "pais_nome_it": "Nigeria",
+   "cidade": "Roma",
+   "endereco": "Via Orazio, 14/18 - 00193 Roma",
+   "lat": 41.906405,
+   "lon": 12.466554,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+390668393200"
+   ],
+   "telefone_principal": "+390668393200"
+  },
+  {
+   "id": "m729",
+   "tipo": "embaixada",
+   "pais_iso": "NO",
+   "pais_nome_it": "Norvegia",
+   "cidade": "Roma",
+   "endereco": "Via delle Terme Deciane, 7 - 00153 Roma",
+   "lat": 41.88324,
+   "lon": 12.484709,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+390645238100"
+   ],
+   "telefone_principal": "+390645238100"
+  },
+  {
+   "id": "m730",
+   "tipo": "embaixada",
+   "pais_iso": "NZ",
+   "pais_nome_it": "Nuova Zelanda",
+   "cidade": "Roma",
+   "endereco": "Via Clitunno, 44 - 00198 Roma",
+   "lat": 41.91838,
+   "lon": 12.505712,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+39068537501"
+   ],
+   "telefone_principal": "+39068537501"
+  },
+  {
+   "id": "m731",
+   "tipo": "embaixada",
+   "pais_iso": "OM",
+   "pais_nome_it": "Oman",
+   "cidade": "Roma",
+   "endereco": "Via della Camilluccia, 625 - 00135 Roma",
+   "lat": 41.945997,
+   "lon": 12.451226,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+390636300517",
+    "+390636300545"
+   ],
+   "telefone_principal": "+390636300517"
+  },
+  {
+   "id": "m732",
+   "tipo": "embaixada",
+   "pais_iso": "NL",
+   "pais_nome_it": "Paesi Bassi",
+   "cidade": "Roma",
+   "endereco": "Via Michele Mercati, 8 - 00197 Roma",
+   "lat": 41.919568,
+   "lon": 12.485074,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+390632286001"
+   ],
+   "telefone_principal": "+390632286001"
+  },
+  {
+   "id": "m733",
+   "tipo": "embaixada",
+   "pais_iso": "PK",
+   "pais_nome_it": "Pakistan",
+   "cidade": "Roma",
+   "endereco": "Via della Camilluccia, 682 - 00135 Roma",
+   "lat": 41.948817,
+   "lon": 12.455539,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+390636301775",
+    "+39063294836"
+   ],
+   "telefone_principal": "+390636301775"
+  },
+  {
+   "id": "m734",
+   "tipo": "embaixada",
+   "pais_iso": "PA",
+   "pais_nome_it": "Panama",
+   "cidade": "Roma",
+   "endereco": "Largo di Torre Argentina, 11 - 00186 Roma",
+   "lat": 41.896252,
+   "lon": 12.476978,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+390644252173"
+   ],
+   "telefone_principal": "+390644252173"
+  },
+  {
+   "id": "m735",
+   "tipo": "embaixada",
+   "pais_iso": "PY",
+   "pais_nome_it": "Paraguay",
+   "cidade": "Roma",
+   "endereco": "Via Panama, 74 - 00198 Roma",
+   "lat": 41.925093,
+   "lon": 12.497036,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+39064741715"
+   ],
+   "telefone_principal": "+39064741715"
+  },
+  {
+   "id": "m736",
+   "tipo": "embaixada",
+   "pais_iso": "PE",
+   "pais_nome_it": "Peru'",
+   "cidade": "Roma",
+   "endereco": "Via Siacci, 2/B - 00197 Roma",
+   "lat": 41.922316,
+   "lon": 12.489474,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+390680691510",
+    "+390680691534"
+   ],
+   "telefone_principal": "+390680691510"
+  },
+  {
+   "id": "m737",
+   "tipo": "embaixada",
+   "pais_iso": "PL",
+   "pais_nome_it": "Polonia",
+   "cidade": "Roma",
+   "endereco": "Via P. Paolo Rubens, 20 - 00197 Roma",
+   "lat": 41.923553,
+   "lon": 12.47514,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+390636204200"
+   ],
+   "telefone_principal": "+390636204200"
+  },
+  {
+   "id": "m738",
+   "tipo": "embaixada",
+   "pais_iso": "PT",
+   "pais_nome_it": "Portogallo",
+   "cidade": "Roma",
+   "endereco": "Via Pasquale Stanislao Mancini, 27 - 00196 Roma",
+   "lat": 41.920231,
+   "lon": 12.494035,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+39068448001"
+   ],
+   "telefone_principal": "+39068448001"
+  },
+  {
+   "id": "m739",
+   "tipo": "embaixada",
+   "pais_iso": "QA",
+   "pais_nome_it": "Qatar",
+   "cidade": "Roma",
+   "endereco": "via Goito, 50-52 - 00185 Roma",
+   "lat": 41.915855,
+   "lon": 12.514136,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+390644249450"
+   ],
+   "telefone_principal": "+390644249450"
+  },
+  {
+   "id": "m740",
+   "tipo": "embaixada",
+   "pais_iso": "CZ",
+   "pais_nome_it": "Repubblica Ceca",
+   "cidade": "Roma",
+   "endereco": "Via dei Gracchi, 322 - 00192 Roma",
+   "lat": 41.909626,
+   "lon": 12.468221,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+390636095791"
+   ],
+   "telefone_principal": "+390636095791"
+  },
+  {
+   "id": "m741",
+   "tipo": "embaixada",
+   "pais_iso": "DO",
+   "pais_nome_it": "Repubblica Dominicana",
+   "cidade": "Roma",
+   "endereco": "Via Ludovisi, 16 - 00187 Roma",
+   "lat": 41.907063,
+   "lon": 12.489195,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+390645434789"
+   ],
+   "telefone_principal": "+390645434789"
+  },
+  {
+   "id": "m742",
+   "tipo": "embaixada",
+   "pais_iso": "SK",
+   "pais_nome_it": "Repubblica Slovacca",
+   "cidade": "Roma",
+   "endereco": "Via dei Colli della Farnesina, 144 - 00135 Roma",
+   "lat": 41.942526,
+   "lon": 12.459352,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+390636715200"
+   ],
+   "telefone_principal": "+390636715200"
+  },
+  {
+   "id": "m743",
+   "tipo": "embaixada",
+   "pais_iso": "RO",
+   "pais_nome_it": "Romania",
+   "cidade": "Roma",
+   "endereco": "Via Nicolò Tartaglia, 36 - 00197 Roma",
+   "lat": 41.924259,
+   "lon": 12.488212,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+39068084529"
+   ],
+   "telefone_principal": "+39068084529"
+  },
+  {
+   "id": "m744",
+   "tipo": "embaixada",
+   "pais_iso": "RU",
+   "pais_nome_it": "Russia",
+   "cidade": "Roma",
+   "endereco": "Via Gaeta, 5 - 00185 Roma",
+   "lat": 41.906873,
+   "lon": 12.503984,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+39064941680",
+    "+39064941681",
+    "+39064941683",
+    "+39064440080"
+   ],
+   "telefone_principal": "+39064941680"
+  },
+  {
+   "id": "m745",
+   "tipo": "embaixada",
+   "pais_iso": "SM",
+   "pais_nome_it": "San Marino",
+   "cidade": "Roma",
+   "endereco": "Via Eleonora Duse, 35 - 00197 Roma",
+   "lat": 41.929552,
+   "lon": 12.491425,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+39068072511",
+    "+39068074582"
+   ],
+   "telefone_principal": "+39068072511"
+  },
+  {
+   "id": "m746",
+   "tipo": "embaixada",
+   "pais_iso": "VA",
+   "pais_nome_it": "Santa Sede",
+   "cidade": "Roma",
+   "endereco": "Via Po, 27a/29 - 00198 Roma",
+   "lat": 41.915832,
+   "lon": 12.49567,
+   "verificacao": "em_verificacao",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+39068552092",
+    "+39068546287"
+   ],
+   "telefone_principal": "+39068552092"
+  },
+  {
+   "id": "m747",
+   "tipo": "embaixada",
+   "pais_iso": "SN",
+   "pais_nome_it": "Senegal",
+   "cidade": "Roma",
+   "endereco": "Via Stoppani, 7 - 00197 Roma",
+   "lat": 41.922281,
+   "lon": 12.491148,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+39066872381",
+    "+39066872353",
+    "+39066865212"
+   ],
+   "telefone_principal": "+39066872381"
+  },
+  {
+   "id": "m748",
+   "tipo": "embaixada",
+   "pais_iso": "RS",
+   "pais_nome_it": "Serbia",
+   "cidade": "Roma",
+   "endereco": "Via dei Monti Parioli, 20 - 00197 Roma",
+   "lat": 41.921517,
+   "lon": 12.476676,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+390632609159",
+    "+39063218241"
+   ],
+   "telefone_principal": "+390632609159"
+  },
+  {
+   "id": "m750",
+   "tipo": "embaixada",
+   "pais_iso": "SI",
+   "pais_nome_it": "Slovenia",
+   "cidade": "Roma",
+   "endereco": "Via Salaria, 222 - 00198 Roma",
+   "lat": 41.918557,
+   "lon": 12.497743,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+390645431160"
+   ],
+   "telefone_principal": "+390645431160"
+  },
+  {
+   "id": "m751",
+   "tipo": "embaixada",
+   "pais_iso": "SO",
+   "pais_nome_it": "Somalia",
+   "cidade": "Roma",
+   "endereco": "Via dei Gracchi, 305 - 00192 Roma",
+   "lat": 41.9098,
+   "lon": 12.470266,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+39063200898"
+   ],
+   "telefone_principal": "+39063200898"
+  },
+  {
+   "id": "m753",
+   "tipo": "embaixada",
+   "pais_iso": "ES",
+   "pais_nome_it": "Spagna",
+   "cidade": "Roma",
+   "endereco": "Piazza Navona, 106/109 - 00186 Roma",
+   "lat": 41.903767,
+   "lon": 12.476577,
+   "verificacao": "em_verificacao",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+39066840401"
+   ],
+   "telefone_principal": "+39066840401"
+  },
+  {
+   "id": "m754",
+   "tipo": "embaixada",
+   "pais_iso": "LK",
+   "pais_nome_it": "Sri Lanka",
+   "cidade": "Roma",
+   "endereco": "Via Adige, 2 - 00198 Roma",
+   "lat": 41.922119,
+   "lon": 12.501686,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+39068554560",
+    "+39068840801"
+   ],
+   "telefone_principal": "+39068554560"
+  },
+  {
+   "id": "m755",
+   "tipo": "embaixada",
+   "pais_iso": "US",
+   "pais_nome_it": "Stati Uniti D'America",
+   "cidade": "Roma",
+   "endereco": "Palazzo Margherita - Via Vittorio Veneto, 119/a - 00187 Roma",
+   "lat": 41.906925,
+   "lon": 12.491497,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+390646741"
+   ],
+   "telefone_principal": "+390646741"
+  },
+  {
+   "id": "m756",
+   "tipo": "embaixada",
+   "pais_iso": "ZA",
+   "pais_nome_it": "Sud Africa",
+   "cidade": "Roma",
+   "endereco": "Via Tanaro, 14 - 00198 Roma",
+   "lat": 41.918275,
+   "lon": 12.502037,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+3906852541"
+   ],
+   "telefone_principal": "+3906852541"
+  },
+  {
+   "id": "m757",
+   "tipo": "embaixada",
+   "pais_iso": "SS",
+   "pais_nome_it": "Sud Sudan",
+   "cidade": "Roma",
+   "endereco": "Temporaneamente trasferita in via Valle della Storta, 182 - 00123 Roma",
+   "lat": 41.908764,
+   "lon": 12.506024,
+   "verificacao": "em_verificacao",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+393272807175"
+   ],
+   "telefone_principal": "+393272807175"
+  },
+  {
+   "id": "m758",
+   "tipo": "embaixada",
+   "pais_iso": "SD",
+   "pais_nome_it": "Sudan",
+   "cidade": "Roma",
+   "endereco": "Via Panama, 48 - 00198 Roma",
+   "lat": 41.923852,
+   "lon": 12.49496,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+390633222138"
+   ],
+   "telefone_principal": "+390633222138"
+  },
+  {
+   "id": "m759",
+   "tipo": "embaixada",
+   "pais_iso": "SE",
+   "pais_nome_it": "Svezia",
+   "cidade": "Roma",
+   "endereco": "Piazza Rio de Janeiro, 3 - 00161 Roma",
+   "lat": 41.912548,
+   "lon": 12.508205,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+390644194100"
+   ],
+   "telefone_principal": "+390644194100"
+  },
+  {
+   "id": "m760",
+   "tipo": "embaixada",
+   "pais_iso": "CH",
+   "pais_nome_it": "Svizzera",
+   "cidade": "Roma",
+   "endereco": "Via Barnaba Oriani, 61 - 00197 Roma",
+   "lat": 41.926665,
+   "lon": 12.485014,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+3906809571"
+   ],
+   "telefone_principal": "+3906809571"
+  },
+  {
+   "id": "m762",
+   "tipo": "embaixada",
+   "pais_iso": "TZ",
+   "pais_nome_it": "Tanzania",
+   "cidade": "Roma",
+   "endereco": "V.le Cortina d'Ampezzo, 185 - 00135 Roma",
+   "lat": 41.948271,
+   "lon": 12.444151,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+390633485801"
+   ],
+   "telefone_principal": "+390633485801"
+  },
+  {
+   "id": "m763",
+   "tipo": "embaixada",
+   "pais_iso": "TH",
+   "pais_nome_it": "Thailandia",
+   "cidade": "Roma",
+   "endereco": "Via Nomentana, 132 - 00162 Roma",
+   "lat": 41.921211,
+   "lon": 12.518343,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+39068622051"
+   ],
+   "telefone_principal": "+39068622051"
+  },
+  {
+   "id": "m764",
+   "tipo": "embaixada",
+   "pais_iso": "TN",
+   "pais_nome_it": "Tunisia",
+   "cidade": "Roma",
+   "endereco": "Via Asmara, 7 - 00199 Roma",
+   "lat": 41.925482,
+   "lon": 12.521215,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+39068603060"
+   ],
+   "telefone_principal": "+39068603060"
+  },
+  {
+   "id": "m765",
+   "tipo": "embaixada",
+   "pais_iso": "TR",
+   "pais_nome_it": "Turchia",
+   "cidade": "Roma",
+   "endereco": "Palazzo Gamberini - Via Palestro, 28 - 00185 Roma",
+   "lat": 41.906456,
+   "lon": 12.502764,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+3906445941",
+    "+39064469933"
+   ],
+   "telefone_principal": "+3906445941"
+  },
+  {
+   "id": "m766",
+   "tipo": "embaixada",
+   "pais_iso": "TM",
+   "pais_nome_it": "Turkmenistan",
+   "cidade": "Roma",
+   "endereco": "Via dei Tre Orologi, 6 - int. 6 - 00197 Roma",
+   "lat": 41.920356,
+   "lon": 12.486917,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+39068081579"
+   ],
+   "telefone_principal": "+39068081579"
+  },
+  {
+   "id": "m767",
+   "tipo": "embaixada",
+   "pais_iso": "UA",
+   "pais_nome_it": "Ucraina",
+   "cidade": "Roma",
+   "endereco": "Via Guido d'Arezzo, 9 - 00198 Roma",
+   "lat": 41.930938,
+   "lon": 12.53839,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+39068412630"
+   ],
+   "telefone_principal": "+39068412630"
+  },
+  {
+   "id": "m768",
+   "tipo": "embaixada",
+   "pais_iso": "UG",
+   "pais_nome_it": "Uganda",
+   "cidade": "Roma",
+   "endereco": "Via Salita del Poggio Laurentino, 7 - 00144 Roma",
+   "lat": 41.828131,
+   "lon": 12.474564,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+39063225220",
+    "+39063207232"
+   ],
+   "telefone_principal": "+39063225220"
+  },
+  {
+   "id": "m769",
+   "tipo": "embaixada",
+   "pais_iso": "HU",
+   "pais_nome_it": "Ungheria",
+   "cidade": "Roma",
+   "endereco": "Via dei Villini, 12/16 - 00161 Roma",
+   "lat": 41.910591,
+   "lon": 12.505262,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+39064402032",
+    "+390644230598"
+   ],
+   "telefone_principal": "+39064402032"
+  },
+  {
+   "id": "m770",
+   "tipo": "embaixada",
+   "pais_iso": "UY",
+   "pais_nome_it": "Uruguay",
+   "cidade": "Roma",
+   "endereco": "Via Giacomo Puccini, 10 - 00198 Roma",
+   "lat": 41.908783,
+   "lon": 12.48914,
+   "verificacao": "em_verificacao",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+39064821776",
+    "+39064821777",
+    "+39064821001"
+   ],
+   "telefone_principal": "+39064821776"
+  },
+  {
+   "id": "m771",
+   "tipo": "embaixada",
+   "pais_iso": "UZ",
+   "pais_nome_it": "Uzbekistan",
+   "cidade": "Roma",
+   "endereco": "Via Giovanni Bessarione, 8 - 00165 Roma",
+   "lat": 41.911024,
+   "lon": 12.470451,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+390687860309"
+   ],
+   "telefone_principal": "+390687860309"
+  },
+  {
+   "id": "m772",
+   "tipo": "embaixada",
+   "pais_iso": "VE",
+   "pais_nome_it": "Venezuela",
+   "cidade": "Roma",
+   "endereco": "Via Nicolò Tartaglia, 11 int. 5/6 - 00197 Roma",
+   "lat": 41.924818,
+   "lon": 12.487936,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+39068079464",
+    "+39068079797"
+   ],
+   "telefone_principal": "+39068079464"
+  },
+  {
+   "id": "m773",
+   "tipo": "embaixada",
+   "pais_iso": "VN",
+   "pais_nome_it": "Vietnam",
+   "cidade": "Roma",
+   "endereco": "Via di Bravetta, 156-158 - 00164 Roma",
+   "lat": 41.883932,
+   "lon": 12.423759,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+390666160726",
+    "+390666166157"
+   ],
+   "telefone_principal": "+390666160726"
+  },
+  {
+   "id": "m774",
+   "tipo": "embaixada",
+   "pais_iso": "YE",
+   "pais_nome_it": "Yemen",
+   "cidade": "Roma",
+   "endereco": "Via Antonio Bosio, 10 - 00161 Roma",
+   "lat": 41.916276,
+   "lon": 12.513758,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+390644231679",
+    "+390644233695"
+   ],
+   "telefone_principal": "+390644231679"
+  },
+  {
+   "id": "m775",
+   "tipo": "embaixada",
+   "pais_iso": "ZM",
+   "pais_nome_it": "Zambia",
+   "cidade": "Roma",
+   "endereco": "Via Ennio Quirino Visconti, 8, 6° piano - 00193 Roma",
+   "lat": 41.908038,
+   "lon": 12.47143,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+390636002590",
+    "+390636006903",
+    "+390636088824"
+   ],
+   "telefone_principal": "+390636002590"
+  },
+  {
+   "id": "m776",
+   "tipo": "embaixada",
+   "pais_iso": "ZW",
+   "pais_nome_it": "Zimbabwe",
+   "cidade": "Roma",
+   "endereco": "Via Crescenzio, 9 - 00193 Roma",
+   "lat": 41.907676,
+   "lon": 12.465097,
+   "verificacao": "verificado",
+   "servico_limitado": false,
+   "fonte": "MAECI Lista Consolare 15/07/2026 + Lista Diplomatica 19/08/2026; coordenadas © OpenStreetMap contributors (ODbL)",
+   "telefones": [
+    "+390668308282"
+   ],
+   "telefone_principal": "+390668308282"
+  }
+ ],
+ "embaixadas_fora_da_italia": [
+  {
+   "pais_nome_it": "Andorra",
+   "sede_fora_da_italia": "C/Prat de la Creu, 62-64 - AD 500 Andorra La Vella",
+   "observacao": "Atende a Itália a partir de outro país",
+   "telefones": [
+    "+376875704"
+   ],
+   "telefone_principal": "+376875704"
+  },
+  {
+   "pais_nome_it": "Antigua E Barbuda",
+   "sede_fora_da_italia": "Ocean Heights, Hodges Bay, PO Box, 1745 - 12034 Saint John's",
+   "observacao": "Atende a Itália a partir de outro país",
+   "telefones": [
+    "+12684648392"
+   ],
+   "telefone_principal": "+12684648392"
+  },
+  {
+   "pais_nome_it": "Bahamas",
+   "sede_fora_da_italia": "Chesterfield Street, 10 - Londra W1J 5JL",
+   "observacao": "Atende a Itália a partir de outro país",
+   "telefones": [
+    "+442074084488"
+   ],
+   "telefone_principal": "+442074084488"
+  },
+  {
+   "pais_nome_it": "Barbados",
+   "sede_fora_da_italia": "Avenue Franklin Roosevelt, 166 - 1050 Bruxelles",
+   "observacao": "Atende a Itália a partir de outro país",
+   "telefones": [
+    "+3227371170",
+    "+3227371171"
+   ],
+   "telefone_principal": "+3227371170"
+  },
+  {
+   "pais_nome_it": "Belize",
+   "sede_fora_da_italia": null,
+   "observacao": "Atende a Itália a partir de outro país",
+   "telefones": [],
+   "telefone_principal": null
+  },
+  {
+   "pais_nome_it": "Benin",
+   "sede_fora_da_italia": "Avenue Victor Hugo, 87 - 75116 Parigi",
+   "observacao": "Atende a Itália a partir de outro país",
+   "telefones": [
+    "+3315009882"
+   ],
+   "telefone_principal": "+3315009882"
+  },
+  {
+   "pais_nome_it": "Botswana",
+   "sede_fora_da_italia": "Avenue de Tervuren, 169 - 1150 Bruxelles",
+   "observacao": "Atende a Itália a partir de outro país",
+   "telefones": [
+    "+3227352070"
+   ],
+   "telefone_principal": "+3227352070"
+  },
+  {
+   "pais_nome_it": "Cambogia",
+   "sede_fora_da_italia": "Rue Adolphe Yvon, 4 - 75116 Parigi",
+   "observacao": "Atende a Itália a partir de outro país",
+   "telefones": [
+    "+33145034720"
+   ],
+   "telefone_principal": "+33145034720"
+  },
+  {
+   "pais_nome_it": "Ciad",
+   "sede_fora_da_italia": "Lepsiusstrasse, 114 - 12165 Berlino",
+   "observacao": "Atende a Itália a partir de outro país",
+   "telefones": [
+    "+493031991620"
+   ],
+   "telefone_principal": "+493031991620"
+  },
+  {
+   "pais_nome_it": "Comore",
+   "sede_fora_da_italia": "20, Rue Marbeau, 20 - 75116 Parigi",
+   "observacao": "Atende a Itália a partir de outro país",
+   "telefones": [
+    "+33954670119"
+   ],
+   "telefone_principal": "+33954670119"
+  },
+  {
+   "pais_nome_it": "Dominica",
+   "sede_fora_da_italia": null,
+   "observacao": "Atende a Itália a partir de outro país",
+   "telefones": [],
+   "telefone_principal": null
+  },
+  {
+   "pais_nome_it": "Eswatini",
+   "sede_fora_da_italia": "Buckingham Gate, 20 - Londra SW1E-6LB",
+   "observacao": "Atende a Itália a partir de outro país",
+   "telefones": [
+    "+442076306611"
+   ],
+   "telefone_principal": "+442076306611"
+  },
+  {
+   "pais_nome_it": "Figi",
+   "sede_fora_da_italia": "92-94 Square Plasky - 1030 Bruxelles",
+   "observacao": "Atende a Itália a partir de outro país",
+   "telefones": [
+    "+3227369050",
+    "+3227360915",
+    "+3227326607"
+   ],
+   "telefone_principal": "+3227369050"
+  },
+  {
+   "pais_nome_it": "Gambia",
+   "sede_fora_da_italia": "Calle Hernàndez Iglesias, 20b - 28027 Madrid",
+   "observacao": "Atende a Itália a partir de outro país",
+   "telefones": [
+    "+34914361792"
+   ],
+   "telefone_principal": "+34914361792"
+  },
+  {
+   "pais_nome_it": "Giamaica",
+   "sede_fora_da_italia": "36, Rue de Lausanne - 1201 Ginevra",
+   "observacao": "Atende a Itália a partir de outro país",
+   "telefones": [
+    "+41229080760",
+    "+41227315780"
+   ],
+   "telefone_principal": "+41229080760"
+  },
+  {
+   "pais_nome_it": "Gibuti",
+   "sede_fora_da_italia": "Rue E. Menier, 26 - 75116 Parigi",
+   "observacao": "Atende a Itália a partir de outro país",
+   "telefones": [
+    "+33147274922"
+   ],
+   "telefone_principal": "+33147274922"
+  },
+  {
+   "pais_nome_it": "Grenada",
+   "sede_fora_da_italia": null,
+   "observacao": "Atende a Itália a partir de outro país",
+   "telefones": [],
+   "telefone_principal": null
+  },
+  {
+   "pais_nome_it": "Guinea Bissau",
+   "sede_fora_da_italia": "Rua de Alcolena, 17/A 1400 - 004 Lisbona",
+   "observacao": "Atende a Itália a partir de outro país",
+   "telefones": [
+    "+351211926230"
+   ],
+   "telefone_principal": "+351211926230"
+  },
+  {
+   "pais_nome_it": "Guyana",
+   "sede_fora_da_italia": "Rue de Pré-de-la-Bichette, II piano - 1202 Ginevra",
+   "observacao": "Atende a Itália a partir de outro país",
+   "telefones": [
+    "+41227301790"
+   ],
+   "telefone_principal": "+41227301790"
+  },
+  {
+   "pais_nome_it": "Laos",
+   "sede_fora_da_italia": "Route de Colovrex, 14 bis - 1218 Ginevra",
+   "observacao": "Atende a Itália a partir de outro país",
+   "telefones": [
+    "+41227982441",
+    "+41227982442"
+   ],
+   "telefone_principal": "+41227982441"
+  },
+  {
+   "pais_nome_it": "Malawi",
+   "sede_fora_da_italia": "Herrmann Debroux, 46 - 1160 Bruxelles",
+   "observacao": "Atende a Itália a partir de outro país",
+   "telefones": [
+    "+3222310980"
+   ],
+   "telefone_principal": "+3222310980"
+  },
+  {
+   "pais_nome_it": "Maldive",
+   "sede_fora_da_italia": "Rue de Varembé, 7, IV piano - 1202 Ginevra",
+   "observacao": "Atende a Itália a partir de outro país",
+   "telefones": [
+    "+41225523777"
+   ],
+   "telefone_principal": "+41225523777"
+  },
+  {
+   "pais_nome_it": "Mauritius",
+   "sede_fora_da_italia": "Rue de Tocqueville, 127 - 75017 Parigi",
+   "observacao": "Atende a Itália a partir de outro país",
+   "telefones": [
+    "+33142273019"
+   ],
+   "telefone_principal": "+33142273019"
+  },
+  {
+   "pais_nome_it": "Namibia",
+   "sede_fora_da_italia": "Rue Boileau, 42 - 75016 Parigi",
+   "observacao": "Atende a Itália a partir de outro país",
+   "telefones": [
+    "+33144173265"
+   ],
+   "telefone_principal": "+33144173265"
+  },
+  {
+   "pais_nome_it": "Nepal",
+   "sede_fora_da_italia": "Rue de la Servette, 81 - 1202 Ginevra",
+   "observacao": "Atende a Itália a partir de outro país",
+   "telefones": [
+    "+41227332600",
+    "+41227332621"
+   ],
+   "telefone_principal": "+41227332600"
+  },
+  {
+   "pais_nome_it": "Palestina",
+   "sede_fora_da_italia": null,
+   "observacao": "Atende a Itália a partir de outro país",
+   "telefones": [],
+   "telefone_principal": null
+  },
+  {
+   "pais_nome_it": "Papua-Nuova Guinea",
+   "sede_fora_da_italia": "430, Avenue de Tervueren-Wol E St. Pierre 13 - 1150 Bruxelles",
+   "observacao": "Atende a Itália a partir de outro país",
+   "telefones": [
+    "+3227790826",
+    "+3227790765"
+   ],
+   "telefone_principal": "+3227790826"
+  },
+  {
+   "pais_nome_it": "Repubblica Centrafricana",
+   "sede_fora_da_italia": "Rue des Perchamps, 30 - 75116 Parigi",
+   "observacao": "Atende a Itália a partir de outro país",
+   "telefones": [
+    "+33145253974"
+   ],
+   "telefone_principal": "+33145253974"
+  },
+  {
+   "pais_nome_it": "Ruanda",
+   "sede_fora_da_italia": "Rue Jadin, 12 - 75017 Parigi",
+   "observacao": "Atende a Itália a partir de outro país",
+   "telefones": [
+    "+33171199191"
+   ],
+   "telefone_principal": "+33171199191"
+  },
+  {
+   "pais_nome_it": "Saint Kitts E Nevis",
+   "sede_fora_da_italia": "Rue de Livourne, 42 - B-1000 Bruxelles",
+   "observacao": "Atende a Itália a partir de outro país",
+   "telefones": [
+    "+3225342611"
+   ],
+   "telefone_principal": "+3225342611"
+  },
+  {
+   "pais_nome_it": "Samoa",
+   "sede_fora_da_italia": "Rue Commandant Lothaire, 1 - 1040 Bruxelles",
+   "observacao": "Atende a Itália a partir de outro país",
+   "telefones": [
+    "+3226608454"
+   ],
+   "telefone_principal": "+3226608454"
+  },
+  {
+   "pais_nome_it": "Sao Tome' E Principe",
+   "sede_fora_da_italia": "Avenue de Tervueren, 175 - 1150 Bruxelles",
+   "observacao": "Atende a Itália a partir de outro país",
+   "telefones": [
+    "+3227348966"
+   ],
+   "telefone_principal": "+3227348966"
+  },
+  {
+   "pais_nome_it": "Seychelles",
+   "sede_fora_da_italia": "Avenue Mozart, 51 - 75016 Parigi",
+   "observacao": "Atende a Itália a partir de outro país",
+   "telefones": [
+    "+33142305747"
+   ],
+   "telefone_principal": "+33142305747"
+  },
+  {
+   "pais_nome_it": "Sierra Leone",
+   "sede_fora_da_italia": "Herwarthstr., 4 - 12207 Berlino",
+   "observacao": "Atende a Itália a partir de outro país",
+   "telefones": [
+    "+493077205850"
+   ],
+   "telefone_principal": "+493077205850"
+  },
+  {
+   "pais_nome_it": "Singapore",
+   "sede_fora_da_italia": "c/o Ministero degli Affari Esteri - Tanglin - 248163 Singapore",
+   "observacao": "Atende a Itália a partir de outro país",
+   "telefones": [
+    "+6563798000"
+   ],
+   "telefone_principal": "+6563798000"
+  },
+  {
+   "pais_nome_it": "Suriname",
+   "sede_fora_da_italia": "Rue du Ranelagh, 94 - 75016 Parigi",
+   "observacao": "Atende a Itália a partir de outro país",
+   "telefones": [
+    "+33145259300"
+   ],
+   "telefone_principal": "+33145259300"
+  },
+  {
+   "pais_nome_it": "Togo",
+   "sede_fora_da_italia": "Rue Alfred Roll, 8 - 75017 Parigi",
+   "observacao": "Atende a Itália a partir de outro país",
+   "telefones": [
+    "+33143801213"
+   ],
+   "telefone_principal": "+33143801213"
+  },
+  {
+   "pais_nome_it": "Tonga",
+   "sede_fora_da_italia": "36, Molyneux Street - Londra W1E 5BQ",
+   "observacao": "Atende a Itália a partir de outro país",
+   "telefones": [
+    "+442077245828"
+   ],
+   "telefone_principal": "+442077245828"
+  },
+  {
+   "pais_nome_it": "Trinidad E Tobago",
+   "sede_fora_da_italia": "Rue de Vermont, 37-39 - 1202 Ginevra",
+   "observacao": "Atende a Itália a partir de outro país",
+   "telefones": [
+    "+41229180380"
+   ],
+   "telefone_principal": "+41229180380"
+  },
+  {
+   "pais_nome_it": "Vanuatu",
+   "sede_fora_da_italia": "Avenue de Tervueren, 380 - 1150 Bruxelles",
+   "observacao": "Atende a Itália a partir de outro país",
+   "telefones": [],
+   "telefone_principal": null
+  }
+ ]
+}

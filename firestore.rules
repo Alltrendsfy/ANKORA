@@ -1,0 +1,79 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // Default deny catch-all
+    match /{document=**} {
+      allow read, write: if false;
+    }
+
+    // Helper functions
+    function isValidId(id) {
+      return id is string && id.size() > 0 && id.size() <= 128 && id.matches('^[a-zA-Z0-9_\\-]+$');
+    }
+
+    function incoming() {
+      return request.resource.data;
+    }
+
+    function existing() {
+      return resource.data;
+    }
+
+    function isSignedIn() {
+      return request.auth != null && request.auth.uid != null;
+    }
+
+    function isOwner(userId) {
+      return isSignedIn() && request.auth.uid == userId;
+    }
+
+    // Validation for EmergencyReport
+    function isValidEmergencyReport(reportId) {
+      return incoming().keys().hasAll(['id', 'areaId', 'status', 'createdAt', 'authorUid'])
+        && incoming().keys().hasOnly(['id', 'areaId', 'areaName', 'status', 'note', 'createdAt', 'authorUid'])
+        && incoming().id == reportId
+        && incoming().authorUid == request.auth.uid
+        && incoming().areaId is string && incoming().areaId.size() > 0 && incoming().areaId.size() <= 64
+        && incoming().status in ['open_clear', 'crowded', 'first_aid_present', 'blocked_access']
+        && incoming().createdAt is string && incoming().createdAt.size() <= 64
+        && (!('note' in incoming()) || (incoming().note is string && incoming().note.size() <= 500))
+        && (!('areaName' in incoming()) || (incoming().areaName is string && incoming().areaName.size() <= 200));
+    }
+
+    // Validation for UserPreferences
+    function isValidUserPreferences() {
+      return incoming().keys().hasAll(['language', 'updatedAt'])
+        && incoming().keys().hasOnly(['language', 'residencyStatus', 'updatedAt'])
+        && incoming().language is string && incoming().language.size() <= 16
+        && incoming().updatedAt is string && incoming().updatedAt.size() <= 64
+        && (!('residencyStatus' in incoming()) || (incoming().residencyStatus is string && incoming().residencyStatus.size() <= 32));
+    }
+
+    // 1. Official Regional Packages (Read-only for public emergency guidance)
+    match /official_packages/{packageId} {
+      allow read: if true;
+      allow write: if false;
+    }
+
+    // 2. Field Emergency Reports for Waiting Areas
+    match /emergency_reports/{reportId} {
+      allow read: if true;
+      allow create: if isSignedIn()
+        && isValidId(reportId)
+        && isValidEmergencyReport(reportId);
+      allow update: if isSignedIn()
+        && existing().authorUid == request.auth.uid
+        && isValidEmergencyReport(reportId);
+      allow delete: if isSignedIn() && existing().authorUid == request.auth.uid;
+    }
+
+    // 3. User Preferences (Strictly isolated by UID)
+    match /users/{userId}/preferences/{docId} {
+      allow read, delete: if isOwner(userId);
+      allow create, update: if isOwner(userId)
+        && isValidId(docId)
+        && isValidUserPreferences();
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Ankora",
+  "description": "Ajuda de emergência offline para estrangeiros na Itália com áreas de espera da Proteção Civil, consulados e frases de socorro.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
